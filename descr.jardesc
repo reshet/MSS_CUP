@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="WINDOWS-1251" standalone="no"?>
+<jardesc>
+    <jar path="D:/Documents/M-Business Important/ICTV-Tool/COMPILING/MSS-Tool2.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/MSS-Tool/descr.jardesc" exportErrors="false" exportWarnings="false" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=MSS-Tool/src&lt;base_gui{Launcher.java[Launcher" manifestLocation="/MSS-Tool/manifest" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=MSS-Tool/src&lt;app_service_news"/>
+        <file path="/MSS-Tool/manifest"/>
+        <javaElement handleIdentifier="=MSS-Tool/src&lt;base_gui"/>
+        <javaElement handleIdentifier="=MSS-Tool/src&lt;base_connectivity"/>
+        <javaElement handleIdentifier="=MSS-Tool/src&lt;base_gui.resources"/>
+        <javaElement handleIdentifier="=MSS-Tool/src&lt;app_service_quiz"/>
+    </selectedElements>
+</jardesc>

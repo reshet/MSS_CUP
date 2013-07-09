@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_e77yUABQEeCre4poJgPo6A">
+  <packagedElement xmi:type="uml:Package" xmi:id="_e77yWQBQEeCre4poJgPo6A" name="app_service_news">
+    <packagedElement xmi:type="uml:Class" xmi:id="_e77yWgBQEeCre4poJgPo6A" name="NewsServiceElementEditor">
+      <generalization xmi:id="_e77yWwBQEeCre4poJgPo6A" general="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yXABQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yXQBQEeCre4poJgPo6A" name="icon" visibility="private" type="_e77ygwBQEeCre4poJgPo6A" association="_e79AdQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yXgBQEeCre4poJgPo6A" name="img" visibility="private" type="_e78ZuQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yXwBQEeCre4poJgPo6A" name="Header" visibility="private" type="_e78ZugBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yYABQEeCre4poJgPo6A" name="Preview" visibility="private" type="_e78ZugBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yYQBQEeCre4poJgPo6A" name="Contence" visibility="private" type="_e78ZugBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yYgBQEeCre4poJgPo6A" name="Confirm" visibility="private" type="_e78ZuwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yYwBQEeCre4poJgPo6A" name="reqHandler" visibility="private" type="_e78ZvABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yZABQEeCre4poJgPo6A" name="URL" visibility="public" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yZQBQEeCre4poJgPo6A" name="TextPanel" visibility="private" type="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yZgBQEeCre4poJgPo6A" name="IconWidth" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yZwBQEeCre4poJgPo6A" name="HeaderHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yaABQEeCre4poJgPo6A" name="PreviewHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yaQBQEeCre4poJgPo6A" name="ContenceHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yagBQEeCre4poJgPo6A" name="LeftWidth" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yawBQEeCre4poJgPo6A" name="NewsListEditing" visibility="private" type="_e78ZvgBQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e77ybABQEeCre4poJgPo6A" name="getIcon" visibility="public">
+        <ownedParameter xmi:id="_e77ybQBQEeCre4poJgPo6A" name="return" type="_e77ygwBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77ybgBQEeCre4poJgPo6A" name="setIcon" visibility="public">
+        <ownedParameter xmi:id="_e77ybwBQEeCre4poJgPo6A" name="icon" type="_e77ygwBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77ycABQEeCre4poJgPo6A" name="getHeader" visibility="public">
+        <ownedParameter xmi:id="_e77ycQBQEeCre4poJgPo6A" name="return" type="_e78ZugBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77ycgBQEeCre4poJgPo6A" name="setHeader" visibility="public">
+        <ownedParameter xmi:id="_e77ycwBQEeCre4poJgPo6A" name="header" type="_e78ZugBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77ydABQEeCre4poJgPo6A" name="getPreview" visibility="public">
+        <ownedParameter xmi:id="_e77ydQBQEeCre4poJgPo6A" name="return" type="_e78ZugBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77ydgBQEeCre4poJgPo6A" name="setPreview" visibility="public">
+        <ownedParameter xmi:id="_e77ydwBQEeCre4poJgPo6A" name="preview" type="_e78ZugBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77yeABQEeCre4poJgPo6A" name="getContence" visibility="public">
+        <ownedParameter xmi:id="_e77yeQBQEeCre4poJgPo6A" name="return" type="_e78ZugBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77yegBQEeCre4poJgPo6A" name="setContence" visibility="public">
+        <ownedParameter xmi:id="_e77yewBQEeCre4poJgPo6A" name="contence" type="_e78ZugBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e77yfABQEeCre4poJgPo6A" name="getListCellRendererComponent" visibility="public">
+        <ownedParameter xmi:id="_e77yfQBQEeCre4poJgPo6A" name="list" type="_e78ZvgBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e77yfgBQEeCre4poJgPo6A" name="value" type="_e78ZvwBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e77yfwBQEeCre4poJgPo6A" name="index"/>
+        <ownedParameter xmi:id="_e77ygABQEeCre4poJgPo6A" name="isSelected"/>
+        <ownedParameter xmi:id="_e77ygQBQEeCre4poJgPo6A" name="cellHasFocus"/>
+        <ownedParameter xmi:id="_e77yggBQEeCre4poJgPo6A" name="return" type="_e78ZwABQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e77ygwBQEeCre4poJgPo6A" name="ImageComponentEditing">
+      <generalization xmi:id="_e77yhABQEeCre4poJgPo6A" general="_e78ZwQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yhQBQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e77yhgBQEeCre4poJgPo6A" name="image" visibility="private" type="_e78ZuQBQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e77yhwBQEeCre4poJgPo6A" name="paintComponent" visibility="public">
+        <ownedParameter xmi:id="_e77yiABQEeCre4poJgPo6A" name="g" type="_e78ZwgBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_e77yiQBQEeCre4poJgPo6A" name="ListElementData">
+      <ownedOperation xmi:id="_e77yigBQEeCre4poJgPo6A" name="initialize" visibility="public">
+        <ownedParameter xmi:id="_e77yiwBQEeCre4poJgPo6A" name="params" type="_e78ZvwBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e77yjABQEeCre4poJgPo6A" name="App_Service_news">
+      <ownedAttribute xmi:id="_e77yjQBQEeCre4poJgPo6A" name="service_name" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yjgBQEeCre4poJgPo6A" name="WorkPane" visibility="private" type="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77yjwBQEeCre4poJgPo6A" name="TopWorkspace" visibility="private" type="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ykABQEeCre4poJgPo6A" name="Header_lbl" visibility="private" type="_e78ZwwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ykQBQEeCre4poJgPo6A" name="toolBar" visibility="private" type="_e78ZkgBQEeCre4poJgPo6A" association="_e79AdwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ykgBQEeCre4poJgPo6A" name="NewsUpdater" visibility="private" type="_e78ZxABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ykwBQEeCre4poJgPo6A" name="NewsTDesc" visibility="private" type="_e79AcABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ylABQEeCre4poJgPo6A" name="NewsT_XML_Desc" visibility="private" type="_e79AcQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ylQBQEeCre4poJgPo6A" name="cron" visibility="private" type="_e79AcgBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ylgBQEeCre4poJgPo6A" name="this_service" visibility="private" type="_e79AcwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ylwBQEeCre4poJgPo6A" name="NewsList" visibility="private" type="_e78ZvgBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ymABQEeCre4poJgPo6A" name="URL" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e77ymQBQEeCre4poJgPo6A" name="MainWindow" visibility="private" type="_e79AdABQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e77ymgBQEeCre4poJgPo6A" name="initialize" visibility="public">
+        <ownedParameter xmi:id="_e78ZYABQEeCre4poJgPo6A" name="work" type="_e78ZuABQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZYQBQEeCre4poJgPo6A" name="top" type="_e78ZuABQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZYgBQEeCre4poJgPo6A" name="MainTool" type="_e78ZuABQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZYwBQEeCre4poJgPo6A" name="getServiceWidgetName" visibility="public">
+        <ownedParameter xmi:id="_e78ZZABQEeCre4poJgPo6A" name="return" type="_e78ZvQBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZZQBQEeCre4poJgPo6A" name="getViewer" visibility="public">
+        <ownedParameter xmi:id="_e78ZZgBQEeCre4poJgPo6A" name="return" type="_e78ZuABQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZZwBQEeCre4poJgPo6A" name="setMainFrameLink" visibility="public">
+        <ownedParameter xmi:id="_e78ZaABQEeCre4poJgPo6A" name="frame" type="_e79AdABQEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e78ZaQBQEeCre4poJgPo6A" name="NewsServiceElementData" clientDependency="_e78ZcQBQEeCre4poJgPo6A">
+      <generalization xmi:id="_e78ZagBQEeCre4poJgPo6A" general="_e78ZwABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZawBQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZbABQEeCre4poJgPo6A" name="image" visibility="private" type="_e78ZuQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZbQBQEeCre4poJgPo6A" name="header" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZbgBQEeCre4poJgPo6A" name="preview" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZbwBQEeCre4poJgPo6A" name="fulltext" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZcABQEeCre4poJgPo6A" name="ID" visibility="private"/>
+      <interfaceRealization xmi:id="_e78ZcQBQEeCre4poJgPo6A" name="ListElementData" supplier="_e77yiQBQEeCre4poJgPo6A" client="_e78ZaQBQEeCre4poJgPo6A" contract="_e77yiQBQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e78ZcgBQEeCre4poJgPo6A" name="getID" visibility="public">
+        <ownedParameter xmi:id="_e78ZcwBQEeCre4poJgPo6A" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZdABQEeCre4poJgPo6A" name="setID" visibility="public">
+        <ownedParameter xmi:id="_e78ZdQBQEeCre4poJgPo6A" name="iD"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZdgBQEeCre4poJgPo6A" name="getImage" visibility="public">
+        <ownedParameter xmi:id="_e78ZdwBQEeCre4poJgPo6A" name="return" type="_e78ZuQBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZeABQEeCre4poJgPo6A" name="setImage" visibility="public">
+        <ownedParameter xmi:id="_e78ZeQBQEeCre4poJgPo6A" name="image" type="_e78ZuQBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZegBQEeCre4poJgPo6A" name="getHeader" visibility="public">
+        <ownedParameter xmi:id="_e78ZewBQEeCre4poJgPo6A" name="return" type="_e78ZvQBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZfABQEeCre4poJgPo6A" name="setHeader" visibility="public">
+        <ownedParameter xmi:id="_e78ZfQBQEeCre4poJgPo6A" name="header" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZfgBQEeCre4poJgPo6A" name="getPreview" visibility="public">
+        <ownedParameter xmi:id="_e78ZfwBQEeCre4poJgPo6A" name="return" type="_e78ZvQBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZgABQEeCre4poJgPo6A" name="setPreview" visibility="public">
+        <ownedParameter xmi:id="_e78ZgQBQEeCre4poJgPo6A" name="preview" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZggBQEeCre4poJgPo6A" name="getFulltext" visibility="public">
+        <ownedParameter xmi:id="_e78ZgwBQEeCre4poJgPo6A" name="return" type="_e78ZvQBQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZhABQEeCre4poJgPo6A" name="setFulltext" visibility="public">
+        <ownedParameter xmi:id="_e78ZhQBQEeCre4poJgPo6A" name="fulltext" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e78ZhgBQEeCre4poJgPo6A" name="initialize" visibility="public">
+        <ownedParameter xmi:id="_e78ZhwBQEeCre4poJgPo6A" name="params" type="_e78ZvwBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e78ZiABQEeCre4poJgPo6A" name="ComplexCellRenderer">
+      <ownedAttribute xmi:id="_e78ZiQBQEeCre4poJgPo6A" name="yet"/>
+      <ownedAttribute xmi:id="_e78ZigBQEeCre4poJgPo6A" name="component" visibility="protected" type="_e78ZwABQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e78ZiwBQEeCre4poJgPo6A" name="getListCellRendererComponent" visibility="public">
+        <ownedParameter xmi:id="_e78ZjABQEeCre4poJgPo6A" name="list" type="_e78ZvgBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZjQBQEeCre4poJgPo6A" name="value" type="_e78ZvwBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZjgBQEeCre4poJgPo6A" name="index"/>
+        <ownedParameter xmi:id="_e78ZjwBQEeCre4poJgPo6A" name="isSelected"/>
+        <ownedParameter xmi:id="_e78ZkABQEeCre4poJgPo6A" name="cellHasFocus"/>
+        <ownedParameter xmi:id="_e78ZkQBQEeCre4poJgPo6A" name="return" type="_e78ZwABQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e78ZkgBQEeCre4poJgPo6A" name="NewsToolBar">
+      <generalization xmi:id="_e78ZkwBQEeCre4poJgPo6A" general="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZlABQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZlQBQEeCre4poJgPo6A" name="SiteToServer_btn" visibility="private" type="_e78ZuwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZlgBQEeCre4poJgPo6A" name="ServerToTool_btn" visibility="private" type="_e78ZuwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZlwBQEeCre4poJgPo6A" name="ToolToServer_btn" visibility="private" type="_e78ZuwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZmABQEeCre4poJgPo6A" name="reqHandler" visibility="private" type="_e78ZvABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZmQBQEeCre4poJgPo6A" name="URL" visibility="private" type="_e78ZvQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZmgBQEeCre4poJgPo6A" name="NewsTDesc" visibility="protected" type="_e79AcABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZmwBQEeCre4poJgPo6A" name="NewsT_XML_Desc" visibility="protected" type="_e79AcQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZnABQEeCre4poJgPo6A" name="NewsUpdater" visibility="protected" type="_e78ZxABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZnQBQEeCre4poJgPo6A" name="newsList" visibility="protected" type="_e78ZvgBQEeCre4poJgPo6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e78ZngBQEeCre4poJgPo6A" name="NewsServiceElement">
+      <generalization xmi:id="_e78ZnwBQEeCre4poJgPo6A" general="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZoABQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZoQBQEeCre4poJgPo6A" name="icon" visibility="private" type="_e78ZsgBQEeCre4poJgPo6A" association="_e79AeQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZogBQEeCre4poJgPo6A" name="Header" visibility="private" type="_e78ZwwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZowBQEeCre4poJgPo6A" name="Preview" visibility="private" type="_e78ZwwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZpABQEeCre4poJgPo6A" name="Contence" visibility="private" type="_e78ZwwBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZpQBQEeCre4poJgPo6A" name="TextPanel" visibility="private" type="_e78ZuABQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZpgBQEeCre4poJgPo6A" name="IconWidth" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZpwBQEeCre4poJgPo6A" name="HeaderHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZqABQEeCre4poJgPo6A" name="PreviewHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZqQBQEeCre4poJgPo6A" name="ContenceHeight" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZqgBQEeCre4poJgPo6A" name="LeftWidth" visibility="private"/>
+      <ownedOperation xmi:id="_e78ZqwBQEeCre4poJgPo6A" name="getListCellRendererComponent" visibility="public">
+        <ownedParameter xmi:id="_e78ZrABQEeCre4poJgPo6A" name="list" type="_e78ZvgBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZrQBQEeCre4poJgPo6A" name="value" type="_e78ZvwBQEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_e78ZrgBQEeCre4poJgPo6A" name="index"/>
+        <ownedParameter xmi:id="_e78ZrwBQEeCre4poJgPo6A" name="isSelected"/>
+        <ownedParameter xmi:id="_e78ZsABQEeCre4poJgPo6A" name="cellHasFocus"/>
+        <ownedParameter xmi:id="_e78ZsQBQEeCre4poJgPo6A" name="return" type="_e78ZwABQEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e78ZsgBQEeCre4poJgPo6A" name="ImageComponent">
+      <generalization xmi:id="_e78ZswBQEeCre4poJgPo6A" general="_e78ZwQBQEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_e78ZtABQEeCre4poJgPo6A" name="serialVersionUID" visibility="private"/>
+      <ownedAttribute xmi:id="_e78ZtQBQEeCre4poJgPo6A" name="image" visibility="private" type="_e78ZuQBQEeCre4poJgPo6A"/>
+      <ownedOperation xmi:id="_e78ZtgBQEeCre4poJgPo6A" name="paintComponent" visibility="public">
+        <ownedParameter xmi:id="_e78ZtwBQEeCre4poJgPo6A" name="g" type="_e78ZwgBQEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZuABQEeCre4poJgPo6A" name="JXPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZuQBQEeCre4poJgPo6A" name="Image"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZugBQEeCre4poJgPo6A" name="JXEditorPane"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZuwBQEeCre4poJgPo6A" name="JXButton"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZvABQEeCre4poJgPo6A" name="MSS_RQ_NewsService"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZvQBQEeCre4poJgPo6A" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZvgBQEeCre4poJgPo6A" name="JList"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZvwBQEeCre4poJgPo6A" name="Object"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZwABQEeCre4poJgPo6A" name="Component"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZwQBQEeCre4poJgPo6A" name="JComponent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZwgBQEeCre4poJgPo6A" name="Graphics"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZwwBQEeCre4poJgPo6A" name="JXLabel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e78ZxABQEeCre4poJgPo6A" name="MSS_RQ_CxListFiller"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e79AcABQEeCre4poJgPo6A" name="MSS_RQ_TableDescriptor"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e79AcQBQEeCre4poJgPo6A" name="MSS_RQ_XMLtoTableDescriptor"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e79AcgBQEeCre4poJgPo6A" name="MSS_CxList_Cron"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e79AcwBQEeCre4poJgPo6A" name="Service_Invokation_Handler"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_e79AdABQEeCre4poJgPo6A" name="JXFrame"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e79AdQBQEeCre4poJgPo6A" memberEnd="_e77yXQBQEeCre4poJgPo6A _e79AdgBQEeCre4poJgPo6A">
+      <ownedEnd xmi:id="_e79AdgBQEeCre4poJgPo6A" name="target" type="_e77yWgBQEeCre4poJgPo6A" association="_e79AdQBQEeCre4poJgPo6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e79AdwBQEeCre4poJgPo6A" memberEnd="_e77ykQBQEeCre4poJgPo6A _e79AeABQEeCre4poJgPo6A">
+      <ownedEnd xmi:id="_e79AeABQEeCre4poJgPo6A" name="target" type="_e77yjABQEeCre4poJgPo6A" association="_e79AdwBQEeCre4poJgPo6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e79AeQBQEeCre4poJgPo6A" memberEnd="_e78ZoQBQEeCre4poJgPo6A _e79AegBQEeCre4poJgPo6A">
+      <ownedEnd xmi:id="_e79AegBQEeCre4poJgPo6A" name="target" type="_e78ZngBQEeCre4poJgPo6A" association="_e79AeQBQEeCre4poJgPo6A"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

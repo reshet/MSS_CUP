@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_8RTtsABMEeCre4poJgPo6A">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RTtsQBMEeCre4poJgPo6A" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RTtsgBMEeCre4poJgPo6A" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RTtswBMEeCre4poJgPo6A" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RUUwABMEeCre4poJgPo6A" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RUUwQBMEeCre4poJgPo6A" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RUUwgBMEeCre4poJgPo6A" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RUUwwBMEeCre4poJgPo6A" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RUUxABMEeCre4poJgPo6A" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8RUUxQBMEeCre4poJgPo6A" name="base_gui">
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RUUzABMEeCre4poJgPo6A" name="ListTableEditor">
+      <generalization xmi:id="_8RUUzQBMEeCre4poJgPo6A" general="_8RWxCgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RUUzgBMEeCre4poJgPo6A" name="serialVersionUID" visibility="private" type="_8RUUwwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RUUzwBMEeCre4poJgPo6A" name="model"/>
+      <ownedAttribute xmi:id="_8RUU0ABMEeCre4poJgPo6A" name="component"/>
+      <ownedOperation xmi:id="_8RUU0QBMEeCre4poJgPo6A" name="getTableCellEditorComponent" visibility="public">
+        <ownedParameter xmi:id="_8RUU0gBMEeCre4poJgPo6A" name="table"/>
+        <ownedParameter xmi:id="_8RU70ABMEeCre4poJgPo6A" name="value"/>
+        <ownedParameter xmi:id="_8RU70QBMEeCre4poJgPo6A" name="isSelected" type="_8RTtsQBMEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_8RU70gBMEeCre4poJgPo6A" name="rowIndex" type="_8RUUwgBMEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_8RU70wBMEeCre4poJgPo6A" name="vColIndex" type="_8RUUwgBMEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_8RU71ABMEeCre4poJgPo6A" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RU71QBMEeCre4poJgPo6A" name="getCellEditorValue" visibility="public">
+        <ownedParameter xmi:id="_8RU71gBMEeCre4poJgPo6A" name="return" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RU71wBMEeCre4poJgPo6A" name="MainFrame">
+      <generalization xmi:id="_8RU72ABMEeCre4poJgPo6A" general="_8RWxDwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU72QBMEeCre4poJgPo6A" name="serialVersionUID" visibility="private" type="_8RUUwwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU72gBMEeCre4poJgPo6A" name="screenSize" visibility="private"/>
+      <ownedAttribute xmi:id="_8RU72wBMEeCre4poJgPo6A" name="defaultAppSize" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RU74QBMEeCre4poJgPo6A" name="Launcher">
+      <ownedAttribute xmi:id="_8RU74gBMEeCre4poJgPo6A" name="MainWindow" visibility="public" type="_8RU71wBMEeCre4poJgPo6A" association="_8RXYEwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU74wBMEeCre4poJgPo6A" name="ToolMainWidget" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU75ABMEeCre4poJgPo6A" name="ToolServicesWidget" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU75QBMEeCre4poJgPo6A" name="TopWidget" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU75gBMEeCre4poJgPo6A" name="WorkSpaceWidget" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU75wBMEeCre4poJgPo6A" name="LeftArea" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RU76ABMEeCre4poJgPo6A" name="CenterArea" visibility="public" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RVi4ABMEeCre4poJgPo6A" name="MSRatio" visibility="private" type="_8RUUwABMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RVi4QBMEeCre4poJgPo6A" name="TabServices" visibility="public"/>
+      <ownedAttribute xmi:id="_8RVi4gBMEeCre4poJgPo6A" name="TopWidgetTabsLayout" visibility="public"/>
+      <ownedOperation xmi:id="_8RVi4wBMEeCre4poJgPo6A" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_8RVi5ABMEeCre4poJgPo6A" name="args"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RVi5QBMEeCre4poJgPo6A" name="createImageIcon" visibility="protected" isStatic="true">
+        <ownedParameter xmi:id="_8RVi5gBMEeCre4poJgPo6A" name="path"/>
+        <ownedParameter xmi:id="_8RVi5wBMEeCre4poJgPo6A" name="description"/>
+        <ownedParameter xmi:id="_8RVi6ABMEeCre4poJgPo6A" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RVi6QBMEeCre4poJgPo6A" name="SeekServices" visibility="private" isStatic="true"/>
+      <ownedOperation xmi:id="_8RVi6gBMEeCre4poJgPo6A" name="DivideZones" visibility="private" isStatic="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_8RVi7ABMEeCre4poJgPo6A" name="App_Service">
+      <ownedOperation xmi:id="_8RVi7QBMEeCre4poJgPo6A" name="getServiceWidgetName" visibility="public">
+        <ownedParameter xmi:id="_8RVi7gBMEeCre4poJgPo6A" name="return" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RVi7wBMEeCre4poJgPo6A" name="initialize" visibility="public">
+        <ownedParameter xmi:id="_8RVi8ABMEeCre4poJgPo6A" name="work" type="_8RWxEgBMEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_8RVi8QBMEeCre4poJgPo6A" name="top" type="_8RWxEgBMEeCre4poJgPo6A"/>
+        <ownedParameter xmi:id="_8RVi8gBMEeCre4poJgPo6A" name="mainTool" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RVi8wBMEeCre4poJgPo6A" name="getViewer" visibility="public">
+        <ownedParameter xmi:id="_8RVi9ABMEeCre4poJgPo6A" name="return" type="_8RWxEgBMEeCre4poJgPo6A" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8RVi9QBMEeCre4poJgPo6A" name="setMainFrameLink" visibility="public">
+        <ownedParameter xmi:id="_8RVi9gBMEeCre4poJgPo6A" name="frame" type="_8RWxDwBMEeCre4poJgPo6A"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RVi9wBMEeCre4poJgPo6A" name="ToolWidgetBtn">
+      <generalization xmi:id="_8RWJ8ABMEeCre4poJgPo6A" general="_8RWxFgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ8QBMEeCre4poJgPo6A" name="serialVersionUID" visibility="private" type="_8RUUwwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ8gBMEeCre4poJgPo6A" name="desc" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWJ8wBMEeCre4poJgPo6A" name="size" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWJ9ABMEeCre4poJgPo6A" name="Tabber" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWJ9QBMEeCre4poJgPo6A" name="TopTabber" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWJ9gBMEeCre4poJgPo6A" name="ServiceWorkspace" visibility="private" type="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ9wBMEeCre4poJgPo6A" name="TopServiceWorkspace" visibility="private" type="_8RWxEgBMEeCre4poJgPo6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RWJ-ABMEeCre4poJgPo6A" name="ToolMainWidget">
+      <generalization xmi:id="_8RWJ-QBMEeCre4poJgPo6A" general="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ-gBMEeCre4poJgPo6A" name="serialVersionUID" visibility="private" type="_8RUUwwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ-wBMEeCre4poJgPo6A" name="Settings_btn" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWJ_ABMEeCre4poJgPo6A" name="lgPanel" visibility="private" type="_8RWKAQBMEeCre4poJgPo6A" association="_8RXYFQBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWJ_QBMEeCre4poJgPo6A" name="login" visibility="public"/>
+      <ownedAttribute xmi:id="_8RWJ_gBMEeCre4poJgPo6A" name="pswd" visibility="public"/>
+      <ownedAttribute xmi:id="_8RWJ_wBMEeCre4poJgPo6A" name="URL" visibility="public"/>
+      <ownedAttribute xmi:id="_8RWKAABMEeCre4poJgPo6A" name="dlg" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8RWKAQBMEeCre4poJgPo6A" name="LoginPanel">
+      <generalization xmi:id="_8RWKAgBMEeCre4poJgPo6A" general="_8RWxEgBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWKAwBMEeCre4poJgPo6A" name="serialVersionUID" visibility="private" type="_8RUUwwBMEeCre4poJgPo6A"/>
+      <ownedAttribute xmi:id="_8RWKBABMEeCre4poJgPo6A" name="login" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWKBQBMEeCre4poJgPo6A" name="pswd" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWKBgBMEeCre4poJgPo6A" name="URL" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWKBwBMEeCre4poJgPo6A" name="login_f" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWKCABMEeCre4poJgPo6A" name="pswd_f" visibility="private"/>
+      <ownedAttribute xmi:id="_8RWxAABMEeCre4poJgPo6A" name="URL_f" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_8RWxCgBMEeCre4poJgPo6A" name="AbstractCellEditor"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_8RWxDwBMEeCre4poJgPo6A" name="JXFrame"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_8RWxEgBMEeCre4poJgPo6A" name="JXPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_8RWxFgBMEeCre4poJgPo6A" name="JXButton"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8RXYEwBMEeCre4poJgPo6A" memberEnd="_8RU74gBMEeCre4poJgPo6A _8RXYFABMEeCre4poJgPo6A">
+      <ownedEnd xmi:id="_8RXYFABMEeCre4poJgPo6A" name="target" type="_8RU74QBMEeCre4poJgPo6A" association="_8RXYEwBMEeCre4poJgPo6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8RXYFQBMEeCre4poJgPo6A" memberEnd="_8RWJ_ABMEeCre4poJgPo6A _8RXYFgBMEeCre4poJgPo6A">
+      <ownedEnd xmi:id="_8RXYFgBMEeCre4poJgPo6A" name="target" type="_8RWJ-ABMEeCre4poJgPo6A" association="_8RXYFQBMEeCre4poJgPo6A"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

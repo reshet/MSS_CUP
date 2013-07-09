@@ -1,0 +1,808 @@
+BEGIN Thread 2: iteration 0 START_TIME = 1295816319221
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 0 END_TIME = 1295816333099 DURATION = 13878ms.
+
+BEGIN Thread 2: iteration 1 START_TIME = 1295816333099
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 1 END_TIME = 1295816333581 DURATION = 482ms.
+
+BEGIN Thread 2: iteration 2 START_TIME = 1295816333581
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 2 END_TIME = 1295816334568 DURATION = 987ms.
+
+BEGIN Thread 2: iteration 3 START_TIME = 1295816334568
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 3 END_TIME = 1295816335053 DURATION = 485ms.
+
+BEGIN Thread 2: iteration 4 START_TIME = 1295816335054
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 4 END_TIME = 1295816335355 DURATION = 301ms.
+
+BEGIN Thread 2: iteration 5 START_TIME = 1295816335355
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 5 END_TIME = 1295816335622 DURATION = 267ms.
+
+BEGIN Thread 2: iteration 6 START_TIME = 1295816335622
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 6 END_TIME = 1295816335944 DURATION = 322ms.
+
+BEGIN Thread 2: iteration 7 START_TIME = 1295816335944
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 7 END_TIME = 1295816335987 DURATION = 43ms.
+
+BEGIN Thread 2: iteration 8 START_TIME = 1295816335987
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 8 END_TIME = 1295816336391 DURATION = 404ms.
+
+BEGIN Thread 2: iteration 9 START_TIME = 1295816336391
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 9 END_TIME = 1295816336441 DURATION = 50ms.
+
+BEGIN Thread 2: iteration 10 START_TIME = 1295816336442
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 10 END_TIME = 1295816336953 DURATION = 511ms.
+
+BEGIN Thread 2: iteration 11 START_TIME = 1295816336953
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 11 END_TIME = 1295816337359 DURATION = 406ms.
+
+BEGIN Thread 2: iteration 12 START_TIME = 1295816337359
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 12 END_TIME = 1295816337510 DURATION = 151ms.
+
+BEGIN Thread 2: iteration 13 START_TIME = 1295816337510
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 13 END_TIME = 1295816337545 DURATION = 35ms.
+
+BEGIN Thread 2: iteration 14 START_TIME = 1295816337545
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 14 END_TIME = 1295816337592 DURATION = 47ms.
+
+BEGIN Thread 2: iteration 15 START_TIME = 1295816337592
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 15 END_TIME = 1295816337626 DURATION = 34ms.
+
+BEGIN Thread 2: iteration 16 START_TIME = 1295816337626
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 16 END_TIME = 1295816337654 DURATION = 28ms.
+
+BEGIN Thread 2: iteration 17 START_TIME = 1295816337654
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 17 END_TIME = 1295816337685 DURATION = 31ms.
+
+BEGIN Thread 2: iteration 18 START_TIME = 1295816337685
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 18 END_TIME = 1295816337717 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 19 START_TIME = 1295816337717
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 19 END_TIME = 1295816338002 DURATION = 285ms.
+
+BEGIN Thread 2: iteration 20 START_TIME = 1295816338002
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 20 END_TIME = 1295816338483 DURATION = 481ms.
+
+BEGIN Thread 2: iteration 21 START_TIME = 1295816338483
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 21 END_TIME = 1295816338743 DURATION = 260ms.
+
+BEGIN Thread 2: iteration 22 START_TIME = 1295816338743
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 22 END_TIME = 1295816338797 DURATION = 54ms.
+
+BEGIN Thread 2: iteration 23 START_TIME = 1295816338797
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 23 END_TIME = 1295816338840 DURATION = 43ms.
+
+BEGIN Thread 2: iteration 24 START_TIME = 1295816338840
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 24 END_TIME = 1295816338898 DURATION = 58ms.
+
+BEGIN Thread 2: iteration 25 START_TIME = 1295816338898
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 25 END_TIME = 1295816338941 DURATION = 43ms.
+
+BEGIN Thread 2: iteration 26 START_TIME = 1295816338941
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 26 END_TIME = 1295816339448 DURATION = 507ms.
+
+BEGIN Thread 2: iteration 27 START_TIME = 1295816339448
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 27 END_TIME = 1295816339722 DURATION = 274ms.
+
+BEGIN Thread 2: iteration 28 START_TIME = 1295816339722
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 28 END_TIME = 1295816340015 DURATION = 293ms.
+
+BEGIN Thread 2: iteration 29 START_TIME = 1295816340015
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 29 END_TIME = 1295816340258 DURATION = 243ms.
+
+BEGIN Thread 2: iteration 30 START_TIME = 1295816340258
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 30 END_TIME = 1295816340300 DURATION = 42ms.
+
+BEGIN Thread 2: iteration 31 START_TIME = 1295816340300
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 31 END_TIME = 1295816340330 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 32 START_TIME = 1295816340330
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 32 END_TIME = 1295816340359 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 33 START_TIME = 1295816340359
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 33 END_TIME = 1295816340396 DURATION = 37ms.
+
+BEGIN Thread 2: iteration 34 START_TIME = 1295816340396
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 34 END_TIME = 1295816340429 DURATION = 33ms.
+
+BEGIN Thread 2: iteration 35 START_TIME = 1295816340429
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 35 END_TIME = 1295816340459 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 36 START_TIME = 1295816340459
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 36 END_TIME = 1295816340486 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 37 START_TIME = 1295816340486
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 37 END_TIME = 1295816340516 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 38 START_TIME = 1295816340516
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 38 END_TIME = 1295816340550 DURATION = 34ms.
+
+BEGIN Thread 2: iteration 39 START_TIME = 1295816340550
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 39 END_TIME = 1295816340579 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 40 START_TIME = 1295816340579
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 40 END_TIME = 1295816340608 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 41 START_TIME = 1295816340608
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 41 END_TIME = 1295816340877 DURATION = 269ms.
+
+BEGIN Thread 2: iteration 42 START_TIME = 1295816340877
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 42 END_TIME = 1295816340927 DURATION = 50ms.
+
+BEGIN Thread 2: iteration 43 START_TIME = 1295816340927
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 43 END_TIME = 1295816340956 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 44 START_TIME = 1295816340957
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 44 END_TIME = 1295816340989 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 45 START_TIME = 1295816340989
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 45 END_TIME = 1295816341033 DURATION = 44ms.
+
+BEGIN Thread 2: iteration 46 START_TIME = 1295816341033
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 46 END_TIME = 1295816341314 DURATION = 281ms.
+
+BEGIN Thread 2: iteration 47 START_TIME = 1295816341314
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 47 END_TIME = 1295816341371 DURATION = 57ms.
+
+BEGIN Thread 2: iteration 48 START_TIME = 1295816341371
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 48 END_TIME = 1295816341398 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 49 START_TIME = 1295816341398
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 49 END_TIME = 1295816341427 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 50 START_TIME = 1295816341427
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 50 END_TIME = 1295816341459 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 51 START_TIME = 1295816341459
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 51 END_TIME = 1295816341489 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 52 START_TIME = 1295816341489
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 52 END_TIME = 1295816341516 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 53 START_TIME = 1295816341516
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 53 END_TIME = 1295816341548 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 54 START_TIME = 1295816341548
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 54 END_TIME = 1295816341579 DURATION = 31ms.
+
+BEGIN Thread 2: iteration 55 START_TIME = 1295816341579
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 55 END_TIME = 1295816341631 DURATION = 52ms.
+
+BEGIN Thread 2: iteration 56 START_TIME = 1295816341631
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 56 END_TIME = 1295816341673 DURATION = 42ms.
+
+BEGIN Thread 2: iteration 57 START_TIME = 1295816341673
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 57 END_TIME = 1295816341723 DURATION = 50ms.
+
+BEGIN Thread 2: iteration 58 START_TIME = 1295816341723
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 58 END_TIME = 1295816341750 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 59 START_TIME = 1295816341750
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 59 END_TIME = 1295816341779 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 60 START_TIME = 1295816341779
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 60 END_TIME = 1295816341809 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 61 START_TIME = 1295816341809
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 61 END_TIME = 1295816341839 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 62 START_TIME = 1295816341839
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 62 END_TIME = 1295816341866 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 63 START_TIME = 1295816341866
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 63 END_TIME = 1295816341909 DURATION = 43ms.
+
+BEGIN Thread 2: iteration 64 START_TIME = 1295816341909
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 64 END_TIME = 1295816341938 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 65 START_TIME = 1295816341938
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 65 END_TIME = 1295816341982 DURATION = 44ms.
+
+BEGIN Thread 2: iteration 66 START_TIME = 1295816341982
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 66 END_TIME = 1295816342012 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 67 START_TIME = 1295816342012
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 67 END_TIME = 1295816342049 DURATION = 37ms.
+
+BEGIN Thread 2: iteration 68 START_TIME = 1295816342049
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 68 END_TIME = 1295816342079 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 69 START_TIME = 1295816342079
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 69 END_TIME = 1295816342107 DURATION = 28ms.
+
+BEGIN Thread 2: iteration 70 START_TIME = 1295816342108
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 70 END_TIME = 1295816342153 DURATION = 45ms.
+
+BEGIN Thread 2: iteration 71 START_TIME = 1295816342153
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 71 END_TIME = 1295816342439 DURATION = 286ms.
+
+BEGIN Thread 2: iteration 72 START_TIME = 1295816342439
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 72 END_TIME = 1295816342701 DURATION = 262ms.
+
+BEGIN Thread 2: iteration 73 START_TIME = 1295816342702
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 73 END_TIME = 1295816343257 DURATION = 555ms.
+
+BEGIN Thread 2: iteration 74 START_TIME = 1295816343257
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 74 END_TIME = 1295816343520 DURATION = 263ms.
+
+BEGIN Thread 2: iteration 75 START_TIME = 1295816343520
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 75 END_TIME = 1295816343805 DURATION = 285ms.
+
+BEGIN Thread 2: iteration 76 START_TIME = 1295816343805
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 76 END_TIME = 1295816344075 DURATION = 270ms.
+
+BEGIN Thread 2: iteration 77 START_TIME = 1295816344075
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 77 END_TIME = 1295816344322 DURATION = 247ms.
+
+BEGIN Thread 2: iteration 78 START_TIME = 1295816344322
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 78 END_TIME = 1295816344363 DURATION = 41ms.
+
+BEGIN Thread 2: iteration 79 START_TIME = 1295816344363
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 79 END_TIME = 1295816344411 DURATION = 48ms.
+
+BEGIN Thread 2: iteration 80 START_TIME = 1295816344411
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 80 END_TIME = 1295816344438 DURATION = 27ms.
+
+BEGIN Thread 2: iteration 81 START_TIME = 1295816344438
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 81 END_TIME = 1295816344467 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 82 START_TIME = 1295816344467
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 82 END_TIME = 1295816344500 DURATION = 33ms.
+
+BEGIN Thread 2: iteration 83 START_TIME = 1295816344500
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 83 END_TIME = 1295816344530 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 84 START_TIME = 1295816344530
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 84 END_TIME = 1295816344558 DURATION = 28ms.
+
+BEGIN Thread 2: iteration 85 START_TIME = 1295816344558
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 85 END_TIME = 1295816344590 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 86 START_TIME = 1295816344590
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 86 END_TIME = 1295816344637 DURATION = 47ms.
+
+BEGIN Thread 2: iteration 87 START_TIME = 1295816344637
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 87 END_TIME = 1295816344673 DURATION = 36ms.
+
+BEGIN Thread 2: iteration 88 START_TIME = 1295816344673
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 88 END_TIME = 1295816344703 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 89 START_TIME = 1295816344703
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 89 END_TIME = 1295816344732 DURATION = 29ms.
+
+BEGIN Thread 2: iteration 90 START_TIME = 1295816344732
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 90 END_TIME = 1295816344757 DURATION = 25ms.
+
+BEGIN Thread 2: iteration 91 START_TIME = 1295816344757
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 91 END_TIME = 1295816344787 DURATION = 30ms.
+
+BEGIN Thread 2: iteration 92 START_TIME = 1295816344787
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 92 END_TIME = 1295816344819 DURATION = 32ms.
+
+BEGIN Thread 2: iteration 93 START_TIME = 1295816344819
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 93 END_TIME = 1295816344864 DURATION = 45ms.
+
+BEGIN Thread 2: iteration 94 START_TIME = 1295816344864
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 94 END_TIME = 1295816344925 DURATION = 61ms.
+
+BEGIN Thread 2: iteration 95 START_TIME = 1295816344925
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 95 END_TIME = 1295816345178 DURATION = 253ms.
+
+BEGIN Thread 2: iteration 96 START_TIME = 1295816345178
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 96 END_TIME = 1295816345706 DURATION = 528ms.
+
+BEGIN Thread 2: iteration 97 START_TIME = 1295816345706
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+END Thread 2: iteration 97 END_TIME = 1295816345984 DURATION = 278ms.
+
+BEGIN Thread 2: iteration 98 START_TIME = 1295816345984
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 98 END_TIME = 1295816346072 DURATION = 88ms.
+
+BEGIN Thread 2: iteration 99 START_TIME = 1295816346073
+REQUEST:<RQ SERVICE = "sms" ME = "SMSGate" SCREEN = "240" USERID = "0"><vertex name = "income" smsText = "mrts sit 2 176" phone = "sdf" serviceNumber = "777" country = "ua" abonentId = "3333" now = "20082323435342" md5key = "46c1fe3e6c93959c4b0275ee7cdc61be"/></RQ>
+REQUEST-ANS:
+<Response>
+	<SmsText>Dont know</SmsText>
+	<ErrorText>problem on counting this request</ErrorText>
+</Response>
+END Thread 2: iteration 99 END_TIME = 1295816346102 DURATION = 29ms.
+
