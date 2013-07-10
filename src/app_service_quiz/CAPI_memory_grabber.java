@@ -1,5 +1,7 @@
 package app_service_quiz;
 
+
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -23,6 +25,7 @@ import javax.swing.table.DefaultTableModel;
 import app_service_SARS_Projects.SProject_InstrumentDesk;
 import app_service_news.NewsServiceElementData;
 import base_SP_Management.LocalInterviewElement;
+import base_SP_Management.OSValidator;
 import base_connectivity.MSS_Pair;
 import base_connectivity.MSS_RQ_CxListFiller;
 import base_connectivity.MSS_RQ_TableDescriptor;
@@ -190,7 +193,12 @@ public class CAPI_memory_grabber extends JPanel {
 		// File [] roots = File.listRoots();
 	
 		
-		File [] roots = new File("/media").listFiles();
+		File [] roots = {};
+		if(OSValidator.isWindows())roots = File.listRoots();
+		else if(OSValidator.isUnix())roots = new File("/media").listFiles();
+		else if (OSValidator.isMac())roots = new File("/Volumes").listFiles();
+		
+		//File [] roots = new File("/media").listFiles();
 		 File [] xml_files = new File[1000];
 		 int f_count = 0;	
 		 String userID="",userPSWD="";

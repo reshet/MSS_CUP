@@ -1,5 +1,7 @@
 package base_SP_Management;
 
+
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -206,7 +208,11 @@ public class FlashBurnerPanel extends JPanel{
 				{
 					try {
 						// For Windows File [] roots = File.listRoots();
-						File [] roots = new File("/media").listFiles();
+						File [] roots = {};
+						if(OSValidator.isWindows())roots = File.listRoots();
+						else if(OSValidator.isUnix())roots = new File("/media").listFiles();
+						else if (OSValidator.isMac())roots = new File("/Volumes").listFiles();
+						//File [] roots = new File("/media").listFiles();
 						boolean fire = false;
 						ArrayList<String> newdrives = new ArrayList<String>();
 						for(File root:roots)
