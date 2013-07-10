@@ -603,7 +603,7 @@ public class Internal_IO_prj {
 								Timestamp t = Timestamp.valueOf(preDate);
 								Date dt = new Date(t.getTime());
 								//*
-								String day = String.valueOf(1+dt.getDate());
+								String day = String.valueOf(dt.getDate());
 								String mt = String.valueOf(1+dt.getMonth());
 								String ye = String.valueOf(1900+dt.getYear());
 								String h = String.valueOf(dt.getHours());
