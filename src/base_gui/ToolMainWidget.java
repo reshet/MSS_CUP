@@ -39,16 +39,17 @@ public class ToolMainWidget extends JPanel{
 	//public static Integer register_interview = 404;
 	//public static String reportURL_begin = "http://mplatforma.com:82/MSS/SARS_Reports.php";
 	//public static String reportURL_begin = "http://54.243.114.214/MSS/SARS_Reports.php";
-	public static String reportURL_begin = "http://54.225.84.44/MSS/SARS_Reports.php";
+	public static String reportURL_begin = "http://mresearch.survey-archive.com/MSS/SARS_Reports.php";
 	//public static String reportURL_begin = "http://194.44.143.27:82/MSS/SARS_Reports.php";
 	//public static String reportURL_begin = "http://localhost/SmartService/SARS_Reports.php";
 	//public static String URL = "http://194.44.143.27:82/MSS/MainGate.php";
 	//public static String URL = "http://localhost/SmartService/MainGate.php";
 	//public static String URL = "http://mss.mplatforma.com:82/MSS/MainGate.php";
-	public static String URL = "http://54.225.84.44/MSS/MainGate.php";
+	//public static String URL = "http://54.225.84.44/MSS/MainGate.php";
 	//public static String URL = "http://82.196.0.140/MSS/MainGate.php";
 	//public static String URL = "http://54.243.114.214/MSS/MainGate.php";
 	//public static String URL = "http://localhost/MSS/MainGate.php";
+	public static String URL = "http://mresearch.survey-archive.com/MSS/MainGate.php";
 	private HudWindow dlg;
 	public ToolMainWidget() {
 		super();
