@@ -287,7 +287,7 @@ public class SProject_InstrumentDesk {
 		prj_list.setModel(model);
 			SocioProject_Widget wdg = new SocioProject_Widget();
 			wdg.adjustSocioProject(sp);
-			tabber.addTab("Проект: "+sp.getName(), wdg);
+			tabber.addTab("РџСЂРѕРµРєС‚: "+sp.getName(), wdg);
 	}
 	private boolean checkGUI_notchanged(SocioProject sp)
 	{
@@ -317,12 +317,12 @@ public class SProject_InstrumentDesk {
 		public create_project_Action()
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Создать проект (на сервере)!");
+			putValue(NAME, "РЎРѕР·РґР°С‚СЊ РїСЂРѕРµРєС‚ (РЅР° СЃРµСЂРІРµСЂРµ)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
-			//String panelName = JOptionPane.showInputDialog("Имя нового проекта:");
+			//String panelName = JOptionPane.showInputDialog("РРјСЏ РЅРѕРІРѕРіРѕ РїСЂРѕРµРєС‚Р°:");
 			new Thread(new Runnable() {
 				@SuppressWarnings("static-access")
 				@Override
@@ -330,15 +330,15 @@ public class SProject_InstrumentDesk {
 				{
 					
 					tag_categories = new HashMap<Integer, String>();
-					tag_categories.put(100, "Заказчик");
+					tag_categories.put(100, "Р—Р°РєР°Р·С‡РёРє");
 					predefined_tasks = new ArrayList<String>();
-					predefined_tasks.add(" получение брифа или задания от заказчика");
-					predefined_tasks.add(" дата подготовки предложения");
-					predefined_tasks.add(" дата подготовка опросника");
-					predefined_tasks.add(" дата начала полевого этапа");
-					predefined_tasks.add(" дата окончания полевого этапа");
-					predefined_tasks.add(" дата передачи заказчику одномерных распределений");
-					predefined_tasks.add(" дата передачи заказчику отчета");
+					predefined_tasks.add(" РїРѕР»СѓС‡РµРЅРёРµ Р±СЂРёС„Р° РёР»Рё Р·Р°РґР°РЅРёСЏ РѕС‚ Р·Р°РєР°Р·С‡РёРєР°");
+					predefined_tasks.add(" РґР°С‚Р° РїРѕРґРіРѕС‚РѕРІРєРё РїСЂРµРґР»РѕР¶РµРЅРёСЏ");
+					predefined_tasks.add(" РґР°С‚Р° РїРѕРґРіРѕС‚РѕРІРєР° РѕРїСЂРѕСЃРЅРёРєР°");
+					predefined_tasks.add(" РґР°С‚Р° РЅР°С‡Р°Р»Р° РїРѕР»РµРІРѕРіРѕ СЌС‚Р°РїР°");
+					predefined_tasks.add(" РґР°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРѕР»РµРІРѕРіРѕ СЌС‚Р°РїР°");
+					predefined_tasks.add(" РґР°С‚Р° РїРµСЂРµРґР°С‡Рё Р·Р°РєР°Р·С‡РёРєСѓ РѕРґРЅРѕРјРµСЂРЅС‹С… СЂР°СЃРїСЂРµРґРµР»РµРЅРёР№");
+					predefined_tasks.add(" РґР°С‚Р° РїРµСЂРµРґР°С‡Рё Р·Р°РєР°Р·С‡РёРєСѓ РѕС‚С‡РµС‚Р°");
 					EventQueue.invokeLater(new Runnable() {
 						public void run() {
 							wind = new UserSettingsAskerWindow(new UserSettingsProjectCreator(tag_categories,predefined_tasks));
@@ -377,7 +377,7 @@ public class SProject_InstrumentDesk {
 					sp.setDescr(setting._projectDescription);
 					
 						 String xmlans = MSS_RQ_Request.http_request(reqHandler.makeGroup(setting._projectName, setting._projectDescription),ToolMainWidget.URL);
-						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"№"},
+						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–"},
 									new Class[]{Integer.class});
 						    MSS_RQ_XMLtoTableDescriptor NewsT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"ID"});
 						    MSS_RQ_CxListFiller NewsUpdater = new MSS_RQ_CxListFiller(NewsTDesc,NewsT_XML_Desc,NewsServiceElementData.class);		   
@@ -407,7 +407,7 @@ public class SProject_InstrumentDesk {
 		private static final long serialVersionUID = 6663011277138149044L;
 		//private int ID;
 		private MSS_RQ_Admin reqHandler = new MSS_RQ_Admin("Tool", ToolMainWidget.login, ToolMainWidget.pswd);
-		private MSS_RQ_TableDescriptor QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"№"}, new Class[]{Integer.class});
+		private MSS_RQ_TableDescriptor QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–"}, new Class[]{Integer.class});
 		private MSS_RQ_XMLtoTableDescriptor QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 		private MSS_RQ_TableFiller QuizUpdater = new MSS_RQ_TableFiller(QuizTDesc,QuizT_XML_Desc);;
 		
@@ -416,11 +416,11 @@ public class SProject_InstrumentDesk {
 		private String task_data_unfolded;
 		private JTable cases_tbl,meta_tbl;
 		private String [] col_idents;
-		public WaitDialog w_dlg = new WaitDialog("Загрузка анкеты с сервера...");
+		public WaitDialog w_dlg = new WaitDialog("Р—Р°РіСЂСѓР·РєР° Р°РЅРєРµС‚С‹ СЃ СЃРµСЂРІРµСЂР°...");
 		public unfold_anket_Action(int anketID)
 		{
 			this.anketID = anketID;
-			putValue(NAME, "Создать панель (на сервере)!");
+			putValue(NAME, "РЎРѕР·РґР°С‚СЊ РїР°РЅРµР»СЊ (РЅР° СЃРµСЂРІРµСЂРµ)!");
 		}
 		public void unfoldTask()
 		{
@@ -588,7 +588,7 @@ public class SProject_InstrumentDesk {
 				classes[i] = String.class;
 			}
 			String [] col_idents_2 = new String[col_idents.length+1];
-			col_idents_2[0] ="№";
+			col_idents_2[0] ="в„–";
 			
 			for(int i = 1; i < col_idents_2.length;i++)
 			{
@@ -624,7 +624,7 @@ public class SProject_InstrumentDesk {
 				classes[i] = String.class;
 			}
 			String [] col_idents_2 = new String[col_idents.length+1];
-			col_idents_2[0] ="№";
+			col_idents_2[0] ="в„–";
 			
 			for(int i = 1; i < col_idents_2.length;i++)
 			{
@@ -714,7 +714,7 @@ public class SProject_InstrumentDesk {
 		public delete_project_Action()
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Удалить проект (на сервере)!");
+			putValue(NAME, "РЈРґР°Р»РёС‚СЊ РїСЂРѕРµРєС‚ (РЅР° СЃРµСЂРІРµСЂРµ)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
@@ -753,13 +753,13 @@ public class SProject_InstrumentDesk {
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
 			list = new JList();
 			disp = new ListGroupsServerDispatcher(list);
-			putValue(NAME, "Список проектов (с сервера)!");
+			putValue(NAME, "РЎРїРёСЃРѕРє РїСЂРѕРµРєС‚РѕРІ (СЃ СЃРµСЂРІРµСЂР°)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
 			String [] params = {String.valueOf(100005)};
-			WaitDialog w_dlg = new WaitDialog("Инициализация состояния проектов...");
+			WaitDialog w_dlg = new WaitDialog("РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃРѕСЃС‚РѕСЏРЅРёСЏ РїСЂРѕРµРєС‚РѕРІ...");
 			w_dlg.getJDialog().setVisible(true);
 			disp.refreshHeirGroups(params);
 			w_dlg.setProgress(50);

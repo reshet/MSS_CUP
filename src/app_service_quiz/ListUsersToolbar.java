@@ -103,7 +103,7 @@ public class ListUsersToolbar extends JPanel {
 			}
 		});
 		editor = HudWidgetFactory.createHudTextField("100000");
-		editor2 = HudWidgetFactory.createHudTextField("ПІБ:Новий панеліст...");
+		editor2 = HudWidgetFactory.createHudTextField("РџР†Р‘:РќРѕРІРёР№ РїР°РЅРµР»С–СЃС‚...");
 		list.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

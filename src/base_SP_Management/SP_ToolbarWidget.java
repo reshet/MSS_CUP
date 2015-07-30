@@ -100,7 +100,7 @@ public class SP_ToolbarWidget extends JPanel {
 				if (size != 0 && size < index){list.setSelectedIndex(size-1);}
 			}
 		});
-		editor = HudWidgetFactory.createHudTextField("Íîâèé åëåìåíò...");
+		editor = HudWidgetFactory.createHudTextField("ÐÐ¾Ð²Ð¸Ð¹ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚...");
 		list.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -135,23 +135,23 @@ public class SP_ToolbarWidget extends JPanel {
 		//this.desk = desk;
 		toolBtns = new JPanel(new GridLayout(1,4));
 		toolBtns.setBackground(new Color(30,30,30));
-		loadBtn = new JButton("Çàãðóçèòü ïàíåëü");
-		saveBtn = new JButton("Ñîõð. CSV");
-		paramsBtn = new JButton("Òàáëèöà ïàíåëèñòîâ");
-		params2Btn = new JButton("Ðåãèñòðàöèîííàÿ àíêåòà");
-		tagsBtn = new JButton("Òåãè");
-		analyticBtn = new JButton("Ðàçáèòü");
-		deployBtn = new JButton("Çàðåãèñòðèðîâàòü ïàíåëèñòîâ!");
-		filterBtn = new JButton("Ïîäâûáîðêà");
-		grabFlashBtn = new JButton("Ñîáðàòü ñ êàðòî÷åê");
-		attachAnketBtn = new JButton("Äîáàâèòü àíêåòó");
-		infoLbl = new JLabel("Âñåãî åëåìåíòîâ â ïàíåëè:0");
+		loadBtn = new JButton("Ð—Ð°Ð³Ñ€ÑƒÐ·Ð¸Ñ‚ÑŒ Ð¿Ð°Ð½ÐµÐ»ÑŒ");
+		saveBtn = new JButton("Ð¡Ð¾Ñ…Ñ€. CSV");
+		paramsBtn = new JButton("Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð¿Ð°Ð½ÐµÐ»Ð¸ÑÑ‚Ð¾Ð²");
+		params2Btn = new JButton("Ð ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð°Ñ Ð°Ð½ÐºÐµÑ‚Ð°");
+		tagsBtn = new JButton("Ð¢ÐµÐ³Ð¸");
+		analyticBtn = new JButton("Ð Ð°Ð·Ð±Ð¸Ñ‚ÑŒ");
+		deployBtn = new JButton("Ð—Ð°Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ð°Ð½ÐµÐ»Ð¸ÑÑ‚Ð¾Ð²!");
+		filterBtn = new JButton("ÐŸÐ¾Ð´Ð²Ñ‹Ð±Ð¾Ñ€ÐºÐ°");
+		grabFlashBtn = new JButton("Ð¡Ð¾Ð±Ñ€Ð°Ñ‚ÑŒ Ñ ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐµÐº");
+		attachAnketBtn = new JButton("Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð°Ð½ÐºÐµÑ‚Ñƒ");
+		infoLbl = new JLabel("Ð’ÑÐµÐ³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¿Ð°Ð½ÐµÐ»Ð¸:0");
 		//showTableBtn = new JButton("T-View");
 		loadBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				SP_ToolbarWidget.this.desk.loadUsers();
-				infoLbl.setText("Âñåãî åëåìåíòîâ â ïàíåëè:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
+				infoLbl.setText("Ð’ÑÐµÐ³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¿Ð°Ð½ÐµÐ»Ð¸:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
 				//paramsBtn.doClick();
 			}
 		});
@@ -226,7 +226,7 @@ public class SP_ToolbarWidget extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				SP_ToolbarWidget.this.desk.filterRequest();
-				infoLbl.setText("Âñåãî åëåìåíòîâ â ïàíåëè:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
+				infoLbl.setText("Ð’ÑÐµÐ³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¿Ð°Ð½ÐµÐ»Ð¸:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
 			}
 		});
 		paramsBtn.addActionListener(new ActionListener() {
@@ -249,7 +249,7 @@ public class SP_ToolbarWidget extends JPanel {
 				defmodel.setColumnIdentifiers(col_ident);
 				defmodel.setDataVector(allData, col_ident);
 				SP_ToolbarWidget.this.desk.getS_panel().getWidget().setTmodel(defmodel);
-				infoLbl.setText("Âñåãî åëåìåíòîâ â ïàíåëè:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
+				infoLbl.setText("Ð’ÑÐµÐ³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¿Ð°Ð½ÐµÐ»Ð¸:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
 			}
 		});
 		params2Btn.addActionListener(new ActionListener() {
@@ -271,7 +271,7 @@ public class SP_ToolbarWidget extends JPanel {
 				defmodel.setColumnIdentifiers(col_ident);
 				defmodel.setDataVector(allData, col_ident);
 				SP_ToolbarWidget.this.desk.getS_panel().getWidget().setTmodel(defmodel);
-				infoLbl.setText("Âñåãî åëåìåíòîâ â ïàíåëè:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
+				infoLbl.setText("Ð’ÑÐµÐ³Ð¾ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð² Ð¿Ð°Ð½ÐµÐ»Ð¸:"+String.valueOf(desk.getS_panel().getCol_panelsists()));
 			}
 		});
 		grabFlashBtn.addActionListener(new ActionListener() {
@@ -281,7 +281,7 @@ public class SP_ToolbarWidget extends JPanel {
 				dlg.setLayout(new BorderLayout());
 				dlg.setSize(new Dimension(300,400));
 				//getJDialog().add(busy_L);
-				dlg.setTitle("Ñáîð äàííûõ èññëåäîâàíèÿ ñ ôëåø-êàðò");
+				dlg.setTitle("Ð¡Ð±Ð¾Ñ€ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸Ñ Ñ Ñ„Ð»ÐµÑˆ-ÐºÐ°Ñ€Ñ‚");
 				Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 				dlg.setLocation((int)screenSize.getWidth()/2 - (int)dlg.getSize().getWidth()/2,
 						(int)screenSize.getHeight()/2 - (int)dlg.getSize().getHeight()/2);
@@ -324,7 +324,7 @@ public class SP_ToolbarWidget extends JPanel {
 				dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
 						(int)screenSize.getHeight()/2 - (int)dlgg.getSize().getHeight()/2);
 				final TasksTablePanel pnl = new TasksTablePanel(100030);
-				JButton sel = new JButton("Âûáðàòü!!!!");
+				JButton sel = new JButton("Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ!!!!");
 				
 				dlgg.add(pnl);
 				dlgg.add(sel,BorderLayout.SOUTH);
@@ -334,7 +334,7 @@ public class SP_ToolbarWidget extends JPanel {
 						final int anketID = Integer.parseInt((String)pnl.getTable().getValueAt(pnl.getTable().getSelectedRow(), 1));
 						System.out.println(anketID);
 						dlgg.setVisible(false);
-						final MSS_RQ_TableDescriptor QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"¹"}, new Class[]{Integer.class});
+						final MSS_RQ_TableDescriptor QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"â„–"}, new Class[]{Integer.class});
 						final MSS_RQ_XMLtoTableDescriptor QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 						final MSS_RQ_TableFiller QuizUpdater = new MSS_RQ_TableFiller(QuizTDesc,QuizT_XML_Desc);
 						final MSS_RQ_Admin reqHandler = new MSS_RQ_Admin("Tool", ToolMainWidget.login, ToolMainWidget.pswd);

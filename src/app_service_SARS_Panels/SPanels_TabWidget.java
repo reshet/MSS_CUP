@@ -25,7 +25,7 @@ public class SPanels_TabWidget extends JPanel{
 		{
 			SocioPanelWidget wdg = new SocioPanelWidget();
 			wdg.adjustSocioPanel(sp);
-			tabber.addTab("Οΰνελό: "+sp.getName(), wdg);
+			tabber.addTab("ΠΠ°Π½ΠµΠ»Ρ: "+sp.getName(), wdg);
 		}
 		setLayout(new BorderLayout());
 		this.add(tabber);

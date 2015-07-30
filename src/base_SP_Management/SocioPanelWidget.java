@@ -82,10 +82,10 @@ public class SocioPanelWidget extends JPanel {
 		tags_panel = new SP_Tags_Panel(new DefaultListModel());
 		toolbar = new SP_ToolbarWidget();
 		toolbar.setPreferredSize(new Dimension(170,40));
-		JLabel text = new JLabel("Οΰνελό:");
+		JLabel text = new JLabel("ΠΠ°Π½ΠµΠ»Ρ:");
 		Font f = new Font(Font.SANS_SERIF,Font.BOLD,15);
 		text.setFont(f);
-		text.setText("Οΰνελό:");
+		text.setText("ΠΠ°Π½ΠµΠ»Ρ:");
 		text.setBackground(new Color(55,95,95));
 		text.setForeground(new Color(120,120,120));
 		text.setAlignmentX(CENTER_ALIGNMENT);

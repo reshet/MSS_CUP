@@ -29,7 +29,7 @@ public class MainFrame extends JFrame {
 		defaultAppSize = new Dimension((int)(screenSize.getWidth()/1.66), ((int)(screenSize.getHeight()/1.33)));
 		this.setSize(defaultAppSize);
 		this.setLocation((int)(screenSize.getWidth()/5), (int)(screenSize.getHeight()/5));
-		this.setTitle("SARS: ÷”œ");
+		this.setTitle("SARS: –¶–£–ü");
 		this.setLayout(new BorderLayout(5,5));
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setBackground(new Color(10,10,10));

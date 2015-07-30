@@ -28,9 +28,9 @@ public class DataRepresenter extends JPanel{
 		table = tabl;
 		setLayout(new BorderLayout(3,3));
 		bar = new JPanel(new GridLayout(1, 3));
-		filter_btn = new JButton("Ôèëüòğ");
-		report_btn = new JButton("Îò÷åò");
-		graph_btn = new JButton("Ãğàôèê");
+		filter_btn = new JButton("Ğ¤Ğ¸Ğ»ÑŒÑ‚Ñ€");
+		report_btn = new JButton("ĞÑ‚Ñ‡ĞµÑ‚");
+		graph_btn = new JButton("Ğ“Ñ€Ğ°Ñ„Ğ¸Ğº");
 		bar.add(filter_btn);
 		bar.add(report_btn);
 		bar.add(graph_btn);

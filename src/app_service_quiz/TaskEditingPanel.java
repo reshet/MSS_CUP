@@ -172,7 +172,7 @@ public class TaskEditingPanel extends JPanel{
 	{
 		tbl = new JTable();
 		dlgg = new JDialog();
-		dlgg.setTitle("Метаданные анкеты...");
+		dlgg.setTitle("РњРµС‚Р°РґР°РЅРЅС‹Рµ Р°РЅРєРµС‚С‹...");
 		dlgg.setSize(400,400);
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
@@ -190,7 +190,7 @@ public class TaskEditingPanel extends JPanel{
 		tbl.setModel(tmodel);
 		tbl.setEnabled(true);
 		TableColumnModel col_model = tbl.getColumnModel();
-		tmodel.setColumnIdentifiers(new String[]{"Метка","Описание","Альтернативы"});
+		tmodel.setColumnIdentifiers(new String[]{"РњРµС‚РєР°","РћРїРёСЃР°РЅРёРµ","РђР»СЊС‚РµСЂРЅР°С‚РёРІС‹"});
 		col_model.getColumn(0).setWidth(30);
 		col_model.getColumn(0).setMaxWidth(30);
 		
@@ -205,7 +205,7 @@ public class TaskEditingPanel extends JPanel{
 		dlgg.setModal(true);
 	}
 	public TaskEditingPanel() {
-		//JLabel header = HudWidgetFactory.createHudLabel("Редагування завдання");
+		//JLabel header = HudWidgetFactory.createHudLabel("Р РµРґР°РіСѓРІР°РЅРЅСЏ Р·Р°РІРґР°РЅРЅСЏ");
 		//header.setFont(new Font("helvetika",Font.BOLD,14));
 		//JPanel superbar = new JPanel(new GridLayout(2,1));
 		//JPanel[] emptypanels = new JPanel[30];
@@ -219,15 +219,15 @@ public class TaskEditingPanel extends JPanel{
 		JPanel bar3 = new JPanel(new GridLayout(4,1));
 		//superbar.setPreferredSize(new Dimension(400,90));
 		bar1.setPreferredSize(new Dimension(70,90));
-		JLabel text1 = HudWidgetFactory.createHudLabel("Опис: ");
-		JLabel text2 = HudWidgetFactory.createHudLabel("Ключ: ");
-		contence = new JTextArea("Складний тест");
+		JLabel text1 = HudWidgetFactory.createHudLabel("РћРїРёСЃ: ");
+		JLabel text2 = HudWidgetFactory.createHudLabel("РљР»СЋС‡: ");
+		contence = new JTextArea("РЎРєР»Р°РґРЅРёР№ С‚РµСЃС‚");
 		key = new JTextArea("11010010101010...");
 		key.setLineWrap(true);
-		JButton load = HudWidgetFactory.createHudButton("Завантажити TSX...");
-		JButton accept = HudWidgetFactory.createHudButton("Підтвердити!");
-		JButton meta = HudWidgetFactory.createHudButton("Метадані!");
-		JButton save = HudWidgetFactory.createHudButton("Экспорт на Flash!");
+		JButton load = HudWidgetFactory.createHudButton("Р—Р°РІР°РЅС‚Р°Р¶РёС‚Рё TSX...");
+		JButton accept = HudWidgetFactory.createHudButton("РџС–РґС‚РІРµСЂРґРёС‚Рё!");
+		JButton meta = HudWidgetFactory.createHudButton("РњРµС‚Р°РґР°РЅС–!");
+		JButton save = HudWidgetFactory.createHudButton("Р­РєСЃРїРѕСЂС‚ РЅР° Flash!");
 		
 		bar1.add(new JLabel(""));bar1.add(text1);bar1.add(new JLabel(""));bar1.add(text2);bar1.add(new JLabel(""));
 		bar2.add(contence);bar2.add(new JScrollPane(key));
@@ -253,20 +253,20 @@ public class TaskEditingPanel extends JPanel{
 			public void actionPerformed(ActionEvent arg0) {
 				JDialog dlg = new JDialog();
 				//dlg.setModal(true);
-				dlg.setTitle("Сохранение на карту памяти...");
+				dlg.setTitle("РЎРѕС…СЂР°РЅРµРЅРёРµ РЅР° РєР°СЂС‚Сѓ РїР°РјСЏС‚Рё...");
 				dlg.setSize(400,400);
 				Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 				dlg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
 						(int)screenSize.getHeight()/2 - (int)dlgg.getSize().getHeight()/2);
-				JLabel lbl = new JLabel("Вставьте карту памяти.");
+				JLabel lbl = new JLabel("Р’СЃС‚Р°РІСЊС‚Рµ РєР°СЂС‚Сѓ РїР°РјСЏС‚Рё.");
 				dlg.add(lbl);
 				if (seek_flash(Integer.parseInt((String)linked_table.getModel().getValueAt(linked_table.getSelectedRow(),1)), getKey()))
 				{
-					lbl.setText("Дані успішно збережені");
+					lbl.setText("Р”Р°РЅС– СѓСЃРїС–С€РЅРѕ Р·Р±РµСЂРµР¶РµРЅС–");
 				}
 				else
 				{
-					lbl.setText("Проблеми при збереженні...");	
+					lbl.setText("РџСЂРѕР±Р»РµРјРё РїСЂРё Р·Р±РµСЂРµР¶РµРЅРЅС–...");	
 				}
 				
 				dlg.setVisible(true);
@@ -314,7 +314,7 @@ public class TaskEditingPanel extends JPanel{
 		chooser.setFileFilter(new FileFilter() {
 			@Override
 			public String getDescription() {
-				return "Файли завдань MSS-Rada TSX";
+				return "Р¤Р°Р№Р»Рё Р·Р°РІРґР°РЅСЊ MSS-Rada TSX";
 			}
 			
 			@Override
@@ -333,7 +333,7 @@ public class TaskEditingPanel extends JPanel{
 			    return false;
 			}
 		});
-		dlg = new HudWindow("Оберіть файл TSX...");
+		dlg = new HudWindow("РћР±РµСЂС–С‚СЊ С„Р°Р№Р» TSX...");
 		dlg.getJDialog().setPreferredSize(new Dimension(300,400));
 		dlg.getJDialog().setBackground(new Color(80,80,80));
 		load.addActionListener(new ActionListener() {	

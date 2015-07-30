@@ -248,7 +248,7 @@ public class RequestFilterPanel_T extends JPanel
 					@Override
 					public void run() {
 						JDialog dlgg = new JDialog();
-						dlgg.setTitle("Обработка данных. Подождите, пожалуйста!");
+						dlgg.setTitle("РћР±СЂР°Р±РѕС‚РєР° РґР°РЅРЅС‹С…. РџРѕРґРѕР¶РґРёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°!");
 						dlgg.setSize(new Dimension (400,80));
 						dlgg.setLocation(400, 400);
 						//JProgressBar p_bar = new JProgressBar(0, (int)_Model.getRowCount());
@@ -285,7 +285,7 @@ public class RequestFilterPanel_T extends JPanel
 						//span.getS_project().addSocioPanel(sp);
 						//sp.setS_project(span.getS_project());
 						
-						String newSpanelName = JOptionPane.showInputDialog("Имя новой панели:");
+						String newSpanelName = JOptionPane.showInputDialog("РРјСЏ РЅРѕРІРѕР№ РїР°РЅРµР»Рё:");
 						sp.setName(newSpanelName);
 						sp.setModel(ResultMaps);
 						sp.setAnalysysForm(root_obj_item.getS_Panel().getAnalysysForm());
@@ -373,7 +373,7 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 	public void doComplexFilterPrepare()
 	{
 		getOper_CBX().removeAllItems();
-		getOper_CBX().addItem("Составной");
+		getOper_CBX().addItem("РЎРѕСЃС‚Р°РІРЅРѕР№");
 		complex_CBX.setVisible(true);
 		logic_CBX.setVisible(false);
 		value_EP_1.setVisible(false);
@@ -381,8 +381,8 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 		var_filter_2_CBX.setVisible(false);
 		var_filter_LJoin_CBX.setVisible(false);
 		panel_2_CBX.setVisible(false);
-		if (complex_CBX.getSelectedItem().toString().equals("И")) mode = 11;else
-		if (complex_CBX.getSelectedItem().toString().equals("ИЛИ")) mode = 12;else mode = 13;
+		if (complex_CBX.getSelectedItem().toString().equals("Р")) mode = 11;else
+		if (complex_CBX.getSelectedItem().toString().equals("РР›Р")) mode = 12;else mode = 13;
 	}
 	public void doSimpleFilterPrepare()
 	{
@@ -395,10 +395,10 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 		panel_2_CBX.setVisible(false);
 		complex_CBX.setVisible(false);
 		mode = 0;	
-		getOper_CBX().addItem("Содержит");
-		getOper_CBX().addItem("Исключая");
-		getOper_CBX().addItem("Связать");
-		//getOper_CBX().addItem("Итератор");
+		getOper_CBX().addItem("РЎРѕРґРµСЂР¶РёС‚");
+		getOper_CBX().addItem("РСЃРєР»СЋС‡Р°СЏ");
+		getOper_CBX().addItem("РЎРІСЏР·Р°С‚СЊ");
+		//getOper_CBX().addItem("РС‚РµСЂР°С‚РѕСЂ");
 	}
 	public RequestFilterItem_T(ArrayList<SocioPanel> spanels)
 	{
@@ -412,20 +412,20 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 		//setBackground(new Color(200,100,30));
 		setLayout(new FlowLayout(FlowLayout.LEFT, 10, 5));
 		
-		use_CB = new JCheckBox("Фильтр");
+		use_CB = new JCheckBox("Р¤РёР»СЊС‚СЂ");
 		use_CB.setEnabled(true);
-		desc_L = new JLabel("Фильтр");
+		desc_L = new JLabel("Р¤РёР»СЊС‚СЂ");
 		oper_CBX = new JComboBox();
-		//oper_CBX.addItem("Составной");
-		//oper_CBX.addItem("Содержит");
-		//oper_CBX.addItem("Исключая");
-		//oper_CBX.addItem("Связать");
+		//oper_CBX.addItem("РЎРѕСЃС‚Р°РІРЅРѕР№");
+		//oper_CBX.addItem("РЎРѕРґРµСЂР¶РёС‚");
+		//oper_CBX.addItem("РСЃРєР»СЋС‡Р°СЏ");
+		//oper_CBX.addItem("РЎРІСЏР·Р°С‚СЊ");
 		//oper_CBX.setPreferredSize(new Dimension(60,20));
 		logic_CBX = new JComboBox();
 		complex_CBX = new JComboBox();
-		complex_CBX.addItem("И");
-		complex_CBX.addItem("ИЛИ");
-		complex_CBX.addItem("Итератор");
+		complex_CBX.addItem("Р");
+		complex_CBX.addItem("РР›Р");
+		complex_CBX.addItem("РС‚РµСЂР°С‚РѕСЂ");
 		complex_CBX.setSelectedIndex(0);
 		complex_CBX.setVisible(false);
 		logic_CBX.setPreferredSize(new Dimension(55,25));
@@ -513,7 +513,7 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(oper_CBX.getSelectedItem()!= null)
-				if (oper_CBX.getSelectedItem().toString().equals("Связать"))
+				if (oper_CBX.getSelectedItem().toString().equals("РЎРІСЏР·Р°С‚СЊ"))
 				{
 					value_EP_1.setVisible(false);
 					var_filter_1_CBX.setVisible(true);
@@ -523,7 +523,7 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 					panel_2_CBX.setVisible(true);
 					mode = 1;//Linking 2 panels = LeftJoin SQL
 				}else
-				if(oper_CBX.getSelectedItem().toString().equals("Составной"))
+				if(oper_CBX.getSelectedItem().toString().equals("РЎРѕСЃС‚Р°РІРЅРѕР№"))
 				{
 					complex_CBX.setVisible(true);
 					logic_CBX.setVisible(false);
@@ -532,8 +532,8 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 					var_filter_2_CBX.setVisible(false);
 					var_filter_LJoin_CBX.setVisible(false);
 					panel_2_CBX.setVisible(false);
-					if (complex_CBX.getSelectedItem().toString().equals("И")) mode = 11;
-					if (complex_CBX.getSelectedItem().toString().equals("ИЛИ")) mode = 12;
+					if (complex_CBX.getSelectedItem().toString().equals("Р")) mode = 11;
+					if (complex_CBX.getSelectedItem().toString().equals("РР›Р")) mode = 12;
 					else mode = 13;
 				}
 				else
@@ -552,9 +552,9 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 		complex_CBX.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				if (oper_CBX.getSelectedItem().toString().equals("Составной"))
+				if (oper_CBX.getSelectedItem().toString().equals("РЎРѕСЃС‚Р°РІРЅРѕР№"))
 				{
-					if (complex_CBX.getSelectedItem().toString().equals("Итератор"))
+					if (complex_CBX.getSelectedItem().toString().equals("РС‚РµСЂР°С‚РѕСЂ"))
 					{
 						mode = 13;
 						var_filter_1_CBX.removeAllItems();
@@ -569,8 +569,8 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 					{
 						var_filter_1_CBX.setVisible(false);
 					}
-					if (complex_CBX.getSelectedItem().toString().equals("И")) mode = 11;
-					if (complex_CBX.getSelectedItem().toString().equals("ИЛИ")) mode = 12;		
+					if (complex_CBX.getSelectedItem().toString().equals("Р")) mode = 11;
+					if (complex_CBX.getSelectedItem().toString().equals("РР›Р")) mode = 12;		
 				}
 			}
 		});
@@ -586,7 +586,7 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 					s_Panel = panel;
 					adjustSP(s_Panel.getModel());
 					var_filter_1_CBX.removeAllItems();
-					if (complex_CBX.getSelectedItem().toString().equals("Итератор"))
+					if (complex_CBX.getSelectedItem().toString().equals("РС‚РµСЂР°С‚РѕСЂ"))
 					{
 						if (panel.getSp_tags()!= null)
 							for (SP_Tag tag:panel.getSp_tags())
@@ -709,7 +709,7 @@ class RequestFilterItem_T extends JPanel  implements TreeCellRenderer, TreeCellE
 	public DefaultTableModel processSP()
 	{
 		JDialog dlgg = new JDialog();
-		dlgg.setTitle("Загрузка данных.Подождите, пожалуйста!");
+		dlgg.setTitle("Р—Р°РіСЂСѓР·РєР° РґР°РЅРЅС‹С….РџРѕРґРѕР¶РґРёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°!");
 		dlgg.setSize(new Dimension (400,80));
 		dlgg.setLocation(400, 400);
 		JProgressBar p_bar = new JProgressBar(0, procSPP.getColumnCount());

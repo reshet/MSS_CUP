@@ -66,7 +66,7 @@ public class ListTasksPanel extends JPanel {
 		JLabel text = new JLabel();
 		Font f = new Font(Font.SANS_SERIF,Font.BOLD,15);
 		text.setFont(f);
-		text.setText("Список завдань:");
+		text.setText("РЎРїРёСЃРѕРє Р·Р°РІРґР°РЅСЊ:");
 		text.setBackground(new Color(55,95,95));
 		text.setForeground(new Color(220,220,220));
 		//text.setLineWrap(true);

@@ -70,8 +70,8 @@ public class CAPI_memory_grabber extends JPanel {
 		setLayout(new BorderLayout());
 		setPreferredSize(new Dimension(500,400));
 		setBackground(new Color(60,60,60));
-		grab = HudWidgetFactory.createHudButton("Зібрати");
-		send = HudWidgetFactory.createHudButton("Відіслати");
+		grab = HudWidgetFactory.createHudButton("Р—С–Р±СЂР°С‚Рё");
+		send = HudWidgetFactory.createHudButton("Р’С–РґС–СЃР»Р°С‚Рё");
 		grab.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {

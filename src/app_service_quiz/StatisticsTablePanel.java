@@ -72,7 +72,7 @@ public class StatisticsTablePanel extends JPanel{
 				{"2342342","32534534","242353rwerfsdf",new Boolean(false),"dgdg,drgert34"}
 				};
 		//ID="185" Description="Task description" Visability="0" Aviability="0" Accepted="0" Subscribed="0";
-		columnNames = new String[]{"№", "ID", "Пройдено","Відповіді"};
+		columnNames = new String[]{"в„–", "ID", "РџСЂРѕР№РґРµРЅРѕ","Р’С–РґРїРѕРІС–РґС–"};
 		model = new DefaultTableModel(data, columnNames);
 		table = new JTable(model);
 		TableColumnModel tcol= table.getColumnModel(); 
@@ -127,9 +127,9 @@ public class StatisticsTablePanel extends JPanel{
 		}).start();
 		//JLabel lbl = new JLabel("text");
 		toolbar = new JPanel();
-		JButton upd = HudWidgetFactory.createHudButton("Оновити!");
-		JButton gupd = HudWidgetFactory.createHudButton("Зібрати статистику");
-		JCheckBox real = HudWidgetFactory.createHudCheckBox("Реального часу");
+		JButton upd = HudWidgetFactory.createHudButton("РћРЅРѕРІРёС‚Рё!");
+		JButton gupd = HudWidgetFactory.createHudButton("Р—С–Р±СЂР°С‚Рё СЃС‚Р°С‚РёСЃС‚РёРєСѓ");
+		JCheckBox real = HudWidgetFactory.createHudCheckBox("Р РµР°Р»СЊРЅРѕРіРѕ С‡Р°СЃСѓ");
 		upd.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -238,7 +238,7 @@ public class StatisticsTablePanel extends JPanel{
        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
        for(int i = 0 ; i < variants.size()&&i<ans_col.size();i++)
        {
-            dataset.setValue(ans_col.get(i), "Відповіді", variants.get(i));
+            dataset.setValue(ans_col.get(i), "Р’С–РґРїРѕРІС–РґС–", variants.get(i));
        }
        for (int i = 0; i < table.getRowCount(); i++)
        {
@@ -255,7 +255,7 @@ public class StatisticsTablePanel extends JPanel{
        int taskID = Integer.parseInt(table.getValueAt(table.getSelectedRow(),1).toString());
        if (!G_Cron.inItems(taskID))
        {
-           MSS_Chart chart = new MSS_Chart(dataset,"Завдання №" + table.getValueAt(table.getSelectedRow(),1).toString(),linked_plotter);
+           MSS_Chart chart = new MSS_Chart(dataset,"Р—Р°РІРґР°РЅРЅСЏ в„–" + table.getValueAt(table.getSelectedRow(),1).toString(),linked_plotter);
            G_Cron.addItem(chart, linked_plotter, false, taskID);
            chart.ShowChartPanel();
        } else

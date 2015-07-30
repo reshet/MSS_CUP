@@ -25,7 +25,7 @@ public class UserSettingsAskerWindow extends JDialog{
 	{
 		this.asker = asker;
 		setTitle(asker.getText_help().getText());
-		set_done = new JButton("Подтвердить!");
+		set_done = new JButton("РџРѕРґС‚РІРµСЂРґРёС‚СЊ!");
 		set_done.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {

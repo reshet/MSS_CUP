@@ -99,7 +99,7 @@ public class FlashBurnerPanel extends JPanel{
 		Integer counter = 0;
 		for(Integer panelist:panelists)
 		{
-			Object[] row = new Object[]{counter,panelist,panelist_names.get(counter),"default","Не выгружен",new DriveBox(lookuper),new JButton(new burn_flash_Action())};
+			Object[] row = new Object[]{counter,panelist,panelist_names.get(counter),"default","РќРµ РІС‹РіСЂСѓР¶РµРЅ",new DriveBox(lookuper),new JButton(new burn_flash_Action())};
 			data[counter++] = row;
 		}
 		DefaultTableModel model = new DefaultTableModel(data,colIdents);
@@ -137,7 +137,7 @@ public class FlashBurnerPanel extends JPanel{
 		 */
 		private static final long serialVersionUID = 4908853434470771961L;
 		public burn_flash_Action() {
-			putValue(NAME, "Выгрузить!");
+			putValue(NAME, "Р’С‹РіСЂСѓР·РёС‚СЊ!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
@@ -194,7 +194,7 @@ public class FlashBurnerPanel extends JPanel{
 				
 			 	writerx.close();
 			 }
-			stateTable.getModel().setValueAt("Выгружено", sel, 4);
+			stateTable.getModel().setValueAt("Р’С‹РіСЂСѓР¶РµРЅРѕ", sel, 4);
 		}
 		
 	}
@@ -280,8 +280,8 @@ public class FlashBurnerPanel extends JPanel{
 		private static final long serialVersionUID = -3645979201726682806L;
 		private JLabel pnl,pnl_name,anket, anket_name;
 		public HeadStatePanel(String pnl_nm,String ank_nm) {
-			pnl = new JLabel("Панель: ");
-			anket = new JLabel("Анкета: ");
+			pnl = new JLabel("РџР°РЅРµР»СЊ: ");
+			anket = new JLabel("РђРЅРєРµС‚Р°: ");
 			pnl_name = new JLabel(pnl_nm);
 			anket_name = new JLabel(ank_nm);
 			setLayout(new GridLayout(1,4));

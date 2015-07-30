@@ -39,7 +39,7 @@ public class ListAllGroupsToolbar extends JPanel {
 		addBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				String name = "Новая панель в проекте";
+				String name = "РќРѕРІР°СЏ РїР°РЅРµР»СЊ РІ РїСЂРѕРµРєС‚Рµ";
 			    String[] param = new String[2];
 			    param[0] = name;
 			    param[1] = String.valueOf(groupID);
@@ -74,7 +74,7 @@ public class ListAllGroupsToolbar extends JPanel {
 				if (size != 0 && size < index){list.setSelectedIndex(size-1);}
 			}
 		});
-		//editor = HudWidgetFactory.createHudTextField("Новf елемент...");
+		//editor = HudWidgetFactory.createHudTextField("РќРѕРІf РµР»РµРјРµРЅС‚...");
 		/*
 		list.addMouseListener(new MouseAdapter() {
 			@Override

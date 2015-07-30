@@ -73,7 +73,7 @@ public class ListTasksToolbar extends JPanel {
 				if (size != 0 && size < index){list.setSelectedIndex(size-1);}
 			}
 		});
-		editor = HudWidgetFactory.createHudTextField("Íîâèé åëåìåíò...");
+		editor = HudWidgetFactory.createHudTextField("ÐÐ¾Ð²Ð¸Ð¹ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚...");
 		list.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

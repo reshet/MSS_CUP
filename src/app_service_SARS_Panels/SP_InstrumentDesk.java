@@ -127,7 +127,7 @@ public class SP_InstrumentDesk {
 		panel_list.setModel(model);
 			SocioPanelWidget wdg = new SocioPanelWidget();
 			wdg.adjustSocioPanel(sp);
-			tabber.addTab("Панель: "+sp.getName(), wdg);
+			tabber.addTab("РџР°РЅРµР»СЊ: "+sp.getName(), wdg);
 	}
 	private boolean checkGUI_notchanged(SocioPanel sp)
 	{
@@ -146,20 +146,20 @@ public class SP_InstrumentDesk {
 		public create_panel_Action()
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Создать панель (на сервере)!");
+			putValue(NAME, "РЎРѕР·РґР°С‚СЊ РїР°РЅРµР»СЊ (РЅР° СЃРµСЂРІРµСЂРµ)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
 			sp = new SocioPanel(S_prj);	
-			String panelName = JOptionPane.showInputDialog("Имя новой панели:");
+			String panelName = JOptionPane.showInputDialog("РРјСЏ РЅРѕРІРѕР№ РїР°РЅРµР»Рё:");
 			sp.setName(panelName);
 			new Thread(new Runnable() {
 				@Override
 				public void run()
 				{
 						 String xmlans = MSS_RQ_Request.http_request(reqHandler.makeGroup(sp.getName(), "Panel"),ToolMainWidget.URL);
-						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"№"},
+						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–"},
 									new Class[]{Integer.class});
 						    MSS_RQ_XMLtoTableDescriptor NewsT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"ID"});
 						    MSS_RQ_CxListFiller NewsUpdater = new MSS_RQ_CxListFiller(NewsTDesc,NewsT_XML_Desc,NewsServiceElementData.class);		   
@@ -184,7 +184,7 @@ public class SP_InstrumentDesk {
 		public delete_panel_Action()
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Удалить панель (на сервере)!");
+			putValue(NAME, "РЈРґР°Р»РёС‚СЊ РїР°РЅРµР»СЊ (РЅР° СЃРµСЂРІРµСЂРµ)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
@@ -220,13 +220,13 @@ public class SP_InstrumentDesk {
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
 			list = new JList();
 			disp = new ListGroupsServerDispatcher(list);
-			putValue(NAME, "Список панелей (с сервере)!");
+			putValue(NAME, "РЎРїРёСЃРѕРє РїР°РЅРµР»РµР№ (СЃ СЃРµСЂРІРµСЂРµ)!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
 			String [] params = {String.valueOf(100015)};
-			WaitDialog w_dlg = new WaitDialog("Инициализация состояния панелей...");
+			WaitDialog w_dlg = new WaitDialog("РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃРѕСЃС‚РѕСЏРЅРёСЏ РїР°РЅРµР»РµР№...");
 			w_dlg.getJDialog().setVisible(true);
 			disp.refreshHeirGroups(params);
 			w_dlg.setProgress(50);

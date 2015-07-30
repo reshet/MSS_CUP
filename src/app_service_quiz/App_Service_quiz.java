@@ -46,7 +46,7 @@ import com.explodingpixels.macwidgets.HudWidgetFactory;
 import com.lowagie.text.pdf.codec.Base64;
 
 public class App_Service_quiz implements App_Service,SidePalleteUser, App_Service_Dependent,App_Service_Provider {
-	private static String service_name = "Остатки старого";
+	private static String service_name = "РћСЃС‚Р°С‚РєРё СЃС‚Р°СЂРѕРіРѕ";
 	private JPanel WorkPane,TopWorkspace,WorkPaneSub1,WorkPaneSub2,TopWorkspaceSub1,TopWorkspaceSub2, ToolMainW;
 	@SuppressWarnings("unused")private JPanel leftListPanel,rightListPanel;
 	@SuppressWarnings("unused")
@@ -83,7 +83,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 	private SP_PManager_Widget PrjM;
 	public App_Service_quiz() {	
 		Header_lbl = new JLabel();
-		Header_lbl.setText("Робоча область сервісу опитувань");
+		Header_lbl.setText("Р РѕР±РѕС‡Р° РѕР±Р»Р°СЃС‚СЊ СЃРµСЂРІС–СЃСѓ РѕРїРёС‚СѓРІР°РЅСЊ");
 		WorkPaneTabber = new CardLayout();
 		WorkPane = new JPanel(WorkPaneTabber);
 		WorkPaneSub1 = new JPanel();
@@ -112,7 +112,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		
 		
 		taskEditor = new TaskEditingPanel();
-		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"№"}, new Class[]{Integer.class});
+		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–"}, new Class[]{Integer.class});
 		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 		QuizUpdater = new MSS_RQ_TableFiller(QuizTDesc,QuizT_XML_Desc);
 		reqHandler = new MSS_RQ_Admin("Tool", ToolMainWidget.login, ToolMainWidget.pswd);
@@ -254,7 +254,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		/*
 		
 		groupsWindow  = new SidePallete(leftListPanel,MainWindow);
-		groupsWindow.getJDialog().setTitle("Управління групами");
+		groupsWindow.getJDialog().setTitle("РЈРїСЂР°РІР»С–РЅРЅСЏ РіСЂСѓРїР°РјРё");
 		
 		//Aniumation
 		 Point from = new Point((int)MainWindow.getLocation().getX(),(int)MainWindow.getLocation().getY());
@@ -271,7 +271,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		 
 		groupsWindow.getJDialog().setLocation(from);
 		groupsWindow.getJDialog().setVisible(true);
-		JButton groupsWindow_btn = HudWidgetFactory.createHudButton("Групи");
+		JButton groupsWindow_btn = HudWidgetFactory.createHudButton("Р“СЂСѓРїРё");
 		groupsWindow_btn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -304,7 +304,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 						UsersPanels[selected_index] = new ListUsersPanel(groupID);
 						//UsersPanels[selected_index];
 						userWindows[selected_index]  = new SidePallete(UsersPanels[selected_index],MainWindow);
-						userWindows[selected_index].getJDialog().setTitle("Панель "+String.valueOf(selected_index)+" група "+String.valueOf(groupID));
+						userWindows[selected_index].getJDialog().setTitle("РџР°РЅРµР»СЊ "+String.valueOf(selected_index)+" РіСЂСѓРїР° "+String.valueOf(groupID));
 						Point from11 = new Point((int)MainWindow.getLocation().getX(),(int)MainWindow.getLocation().getY());
 				        userWindows[selected_index].getJDialog().setLocation(from11);
 				        userWindows[selected_index].getJDialog().setVisible(true);	
@@ -317,7 +317,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		leftUsersPanel = new ListUsersPanel(31);
 		
 		UsersWindow  = new SidePallete(leftUsersPanel,MainWindow);
-		UsersWindow.getJDialog().setTitle("Панель 1");
+		UsersWindow.getJDialog().setTitle("РџР°РЅРµР»СЊ 1");
 		
 		//Aniumation
 		 Point from11 = new Point((int)MainWindow.getLocation().getX(),(int)MainWindow.getLocation().getY());
@@ -330,7 +330,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
  
 		UsersWindow.getJDialog().setLocation(from11);
 		UsersWindow.getJDialog().setVisible(true);
-		JButton UsersWindow_btn = HudWidgetFactory.createHudButton("Панель 1");
+		JButton UsersWindow_btn = HudWidgetFactory.createHudButton("РџР°РЅРµР»СЊ 1");
 		UsersWindow_btn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -345,7 +345,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		////////////////////////////////////////////////
 		s_project = new SocioProjectMain(100031);
 		//SocioPanel sp = new SocioPanel(s_project);
-		//String panelName = JOptionPane.showInputDialog("Имя новой панели:");
+		//String panelName = JOptionPane.showInputDialog("РРјСЏ РЅРѕРІРѕР№ РїР°РЅРµР»Рё:");
 		//sp.setName(panelName);
 		//SPanel = new SocioPanelWidget();
 		//SPanel.adjustSocioPanel(sp);
@@ -403,7 +403,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		((ListTasksPanel)rightListPanel).setLinked_table(tasksPanel.getTable());
 		
 		tasksWindow  = new SidePallete(rightListPanel,MainWindow);
-		tasksWindow.getJDialog().setTitle("Управління завданнями");
+		tasksWindow.getJDialog().setTitle("РЈРїСЂР°РІР»С–РЅРЅСЏ Р·Р°РІРґР°РЅРЅСЏРјРё");
 		
 		 Point from2 = new Point((int)MainWindow.getLocation().getX()+MainWindow.getWidth()-170,(int)MainWindow.getLocation().getY());
 	     //Point to2= new Point(this.getRightSideLoc());
@@ -429,7 +429,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 		tasksWindow.getJDialog().setLocation(from2);
 		tasksWindow.getJDialog().setVisible(true);
 		*/
-		JButton tasksWindow_btn = HudWidgetFactory.createHudButton("Завдання");
+		JButton tasksWindow_btn = HudWidgetFactory.createHudButton("Р—Р°РІРґР°РЅРЅСЏ");
 		tasksWindow_btn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -439,7 +439,7 @@ public class App_Service_quiz implements App_Service,SidePalleteUser, App_Servic
 			}
 		});
 		
-		JButton statPanel_btn = HudWidgetFactory.createHudButton("Статистика");
+		JButton statPanel_btn = HudWidgetFactory.createHudButton("РЎС‚Р°С‚РёСЃС‚РёРєР°");
 		statPanel_btn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {

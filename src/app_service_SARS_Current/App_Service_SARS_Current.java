@@ -23,7 +23,7 @@ import base_gui.ToolMainWidget;
 
 public class App_Service_SARS_Current implements App_Service, App_Service_Dependent
 {
-	private static String service_name = "Текущие события";
+	private static String service_name = "РўРµРєСѓС‰РёРµ СЃРѕР±С‹С‚РёСЏ";
 	private JPanel WorkPane, TopWorkspace;
 	private JLabel Header_lbl;
 	private MSS_RQ_CxListFiller Updater;
@@ -41,7 +41,7 @@ public class App_Service_SARS_Current implements App_Service, App_Service_Depend
 	public App_Service_SARS_Current()
 	{
 		//Connectivity settings
-		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–","Image","Header","Text","Fulltext"},
+		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"РІвЂћвЂ“","Image","Header","Text","Fulltext"},
 	//			 								new Class[]{Integer.class,String.class,String.class,String.class});
 	  //T_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"title","description","fulltext","enclosure"});
 	  // Updater = new MSS_RQ_CxListFiller(TDesc,T_XML_Desc,(Class<? extends ListElementData>) NewsServiceElementData.class);
@@ -49,7 +49,7 @@ public class App_Service_SARS_Current implements App_Service, App_Service_Depend
 		//-----------
 		Header_lbl = new JLabel(); 
 		Header_lbl.setForeground(new Color(200,200,200));
-		Header_lbl.setText("Рабочая область сервиса текущих событий.");	
+		Header_lbl.setText("Р Р°Р±РѕС‡Р°СЏ РѕР±Р»Р°СЃС‚СЊ СЃРµСЂРІРёСЃР° С‚РµРєСѓС‰РёС… СЃРѕР±С‹С‚РёР№.");	
 		WorkPane = new JPanel(new BorderLayout());
 		WorkPane.setBackground(new Color(40,60,80));
 		TopWorkspace = new JPanel(new BorderLayout());
@@ -125,10 +125,10 @@ public class App_Service_SARS_Current implements App_Service, App_Service_Depend
 				}
 			}
 			JLabel lbl = new JLabel("CURRENT");
-			menu = new JMenu("Текущие события");
-			JMenuItem watch = new JMenuItem("Просмотр");
-			JMenuItem state = new JMenuItem("Состояние проектов");
-			JMenuItem actions = new JMenuItem("Необходимые действия");
+			menu = new JMenu("РўРµРєСѓС‰РёРµ СЃРѕР±С‹С‚РёСЏ");
+			JMenuItem watch = new JMenuItem("РџСЂРѕСЃРјРѕС‚СЂ");
+			JMenuItem state = new JMenuItem("РЎРѕСЃС‚РѕСЏРЅРёРµ РїСЂРѕРµРєС‚РѕРІ");
+			JMenuItem actions = new JMenuItem("РќРµРѕР±С…РѕРґРёРјС‹Рµ РґРµР№СЃС‚РІРёСЏ");
 			
 			menu.add(watch);
 			menu.add(state);

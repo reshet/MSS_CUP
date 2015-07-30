@@ -28,7 +28,7 @@ public class UserSettingsAnketPanelMatcher extends UserSettingsAbstractAsker<Def
 	private ArrayList<Setting_AssocPair<String, Integer>> panels,ankets;
 	
 	public UserSettingsAnketPanelMatcher(ArrayList<Setting_AssocPair<String, Integer>> panels,ArrayList<Setting_AssocPair<String, Integer>> ankets) {
-		super("Установите соответсвия между панелями и анкетами по данному проекту.");
+		super("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ СЃРѕРѕС‚РІРµС‚СЃРІРёСЏ РјРµР¶РґСѓ РїР°РЅРµР»СЏРјРё Рё Р°РЅРєРµС‚Р°РјРё РїРѕ РґР°РЅРЅРѕРјСѓ РїСЂРѕРµРєС‚Сѓ.");
 		this.ankets = ankets;
 		this.panels = panels;
 		Object [][] data = new Object[ankets.size()][panels.size()+1];
@@ -51,9 +51,9 @@ public class UserSettingsAnketPanelMatcher extends UserSettingsAbstractAsker<Def
 		}
 		//ID="185" Description="Task description" Visability="0" Aviability="0" Accepted="0" Subscribed="0";
 		String []columnNames = new String[panels.size()+1];
-		columnNames[0]="Анкета";
+		columnNames[0]="РђРЅРєРµС‚Р°";
 		String []columnNames_ans = new String[panels.size()+1];
-		columnNames_ans[0]="Анкета";
+		columnNames_ans[0]="РђРЅРєРµС‚Р°";
 		int j = 1;
 		for(Setting_AssocPair<String, Integer> pair:panels)
 		{
@@ -113,7 +113,7 @@ public class UserSettingsAnketPanelMatcher extends UserSettingsAbstractAsker<Def
 	}
 	private void askServerSubscriptionState(DefaultTableModel model)
 	{
-		WaitDialog dlg = new WaitDialog("Запрос данных о соответствиях с сервера...");
+		WaitDialog dlg = new WaitDialog("Р—Р°РїСЂРѕСЃ РґР°РЅРЅС‹С… Рѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏС… СЃ СЃРµСЂРІРµСЂР°...");
 		int panel_col = 1;
 		for (Setting_AssocPair<String, Integer> panel:panels)
 		{

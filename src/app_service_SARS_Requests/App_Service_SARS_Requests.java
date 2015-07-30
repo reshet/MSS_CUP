@@ -22,7 +22,7 @@ import base_gui.ToolMainWidget;
 
 public class App_Service_SARS_Requests implements App_Service, App_Service_Dependent
 {
-	private static String service_name = "Подвыборка";
+	private static String service_name = "РџРѕРґРІС‹Р±РѕСЂРєР°";
 	private JPanel WorkPane, TopWorkspace;
 	private JLabel Header_lbl;
 	private MSS_RQ_CxListFiller Updater;
@@ -40,7 +40,7 @@ public class App_Service_SARS_Requests implements App_Service, App_Service_Depen
 	public App_Service_SARS_Requests()
 	{
 		//Connectivity settings
-		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–","Image","Header","Text","Fulltext"},
+		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"РІвЂћвЂ“","Image","Header","Text","Fulltext"},
 	//			 								new Class[]{Integer.class,String.class,String.class,String.class});
 	  //T_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"title","description","fulltext","enclosure"});
 	  // Updater = new MSS_RQ_CxListFiller(TDesc,T_XML_Desc,(Class<? extends ListElementData>) NewsServiceElementData.class);
@@ -48,7 +48,7 @@ public class App_Service_SARS_Requests implements App_Service, App_Service_Depen
 		//-----------
 		Header_lbl = new JLabel(); 
 		Header_lbl.setForeground(new Color(200,200,200));
-		Header_lbl.setText("Рабочая область сервиса подвыборки.");	
+		Header_lbl.setText("Р Р°Р±РѕС‡Р°СЏ РѕР±Р»Р°СЃС‚СЊ СЃРµСЂРІРёСЃР° РїРѕРґРІС‹Р±РѕСЂРєРё.");	
 		WorkPane = new JPanel(new BorderLayout());
 		WorkPane.setBackground(new Color(40,60,80));
 		TopWorkspace = new JPanel(new BorderLayout());

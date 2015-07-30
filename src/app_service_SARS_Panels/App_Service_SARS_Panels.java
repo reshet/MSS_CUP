@@ -28,7 +28,7 @@ import base_gui.ToolMainWidget;
 
 public class App_Service_SARS_Panels implements App_Service, App_Service_Dependent
 {
-	private static String service_name = "Панели";
+	private static String service_name = "РџР°РЅРµР»Рё";
 	private JPanel WorkPane, TopWorkspace;
 	//private JLabel Header_lbl;
 	private MSS_RQ_CxListFiller Updater;
@@ -47,7 +47,7 @@ public class App_Service_SARS_Panels implements App_Service, App_Service_Depende
 	public App_Service_SARS_Panels()
 	{
 		//Connectivity settings
-		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–","Image","Header","Text","Fulltext"},
+		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"РІвЂћвЂ“","Image","Header","Text","Fulltext"},
 	//			 								new Class[]{Integer.class,String.class,String.class,String.class});
 	  //T_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"title","description","fulltext","enclosure"});
 	  // Updater = new MSS_RQ_CxListFiller(TDesc,T_XML_Desc,(Class<? extends ListElementData>) NewsServiceElementData.class);
@@ -55,7 +55,7 @@ public class App_Service_SARS_Panels implements App_Service, App_Service_Depende
 		//-----------
 		//Header_lbl = new JLabel(); 
 		//Header_lbl.setForeground(new Color(200,200,200));
-		//Header_lbl.setText("Рабочая область сервиса панелей.");	
+		//Header_lbl.setText("Р Р°Р±РѕС‡Р°СЏ РѕР±Р»Р°СЃС‚СЊ СЃРµСЂРІРёСЃР° РїР°РЅРµР»РµР№.");	
 		WorkPane = new JPanel(new BorderLayout());
 		WorkPane.setBackground(new Color(40,60,80));
 		TopWorkspace = new JPanel(new BorderLayout());
@@ -136,24 +136,24 @@ public class App_Service_SARS_Panels implements App_Service, App_Service_Depende
 			SP_InstrumentDesk i_desk = new SP_InstrumentDesk(s_prj);
 			i_desk.setTabber(tabWidget.getTabber());
 			SP_ToolbarWidget toolBar = new SP_ToolbarWidget(i_desk);
-			menu = new JMenu("Панели");
-			JMenuItem cr_new = new JMenuItem("Создать новую панель.");
-			JMenuItem p_list = new JMenuItem("Список существующих панелей");
-			JMenu edit = new JMenu("Действия...");
-			edit.add(new JMenuItem("Сгенерировать статистику"));
-			edit.add(new JMenuItem("Необходимые действия"));
-			edit.add(new JMenuItem("Объединить"));
-			edit.add(new JMenuItem("Сделать подвыборку"));
-			edit.add(new JMenuItem("Отправить сообщение"));
-			edit.add(new JMenuItem("Составить расписание"));
-			edit.add(new JMenuItem("Список проектов участия"));
-			edit.add(new JMenuItem("Редактировать фильтрами"));
+			menu = new JMenu("РџР°РЅРµР»Рё");
+			JMenuItem cr_new = new JMenuItem("РЎРѕР·РґР°С‚СЊ РЅРѕРІСѓСЋ РїР°РЅРµР»СЊ.");
+			JMenuItem p_list = new JMenuItem("РЎРїРёСЃРѕРє СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёС… РїР°РЅРµР»РµР№");
+			JMenu edit = new JMenu("Р”РµР№СЃС‚РІРёСЏ...");
+			edit.add(new JMenuItem("РЎРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ СЃС‚Р°С‚РёСЃС‚РёРєСѓ"));
+			edit.add(new JMenuItem("РќРµРѕР±С…РѕРґРёРјС‹Рµ РґРµР№СЃС‚РІРёСЏ"));
+			edit.add(new JMenuItem("РћР±СЉРµРґРёРЅРёС‚СЊ"));
+			edit.add(new JMenuItem("РЎРґРµР»Р°С‚СЊ РїРѕРґРІС‹Р±РѕСЂРєСѓ"));
+			edit.add(new JMenuItem("РћС‚РїСЂР°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ"));
+			edit.add(new JMenuItem("РЎРѕСЃС‚Р°РІРёС‚СЊ СЂР°СЃРїРёСЃР°РЅРёРµ"));
+			edit.add(new JMenuItem("РЎРїРёСЃРѕРє РїСЂРѕРµРєС‚РѕРІ СѓС‡Р°СЃС‚РёСЏ"));
+			edit.add(new JMenuItem("Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ С„РёР»СЊС‚СЂР°РјРё"));
 			menu.add(cr_new);
 			menu.add(p_list);
 			menu.addSeparator();
 			menu.add(edit);
 			
-			JMenu ankets_menu = new JMenu("Репозитарий");
+			JMenu ankets_menu = new JMenu("Р РµРїРѕР·РёС‚Р°СЂРёР№");
 			JMenuItem anket_list = new JMenuItem(new Ankets_list_Action());
 			JMenuItem anket_add = new JMenuItem(new Anket_add_Action());
 			ankets_menu.add(anket_list);
@@ -173,7 +173,7 @@ public class App_Service_SARS_Panels implements App_Service, App_Service_Depende
 		 */
 		private static final long serialVersionUID = 4684379079563970183L;
 		public Ankets_list_Action() {
-			putValue(Action.NAME, "Список анкет.");
+			putValue(Action.NAME, "РЎРїРёСЃРѕРє Р°РЅРєРµС‚.");
 			putValue(Action.SHORT_DESCRIPTION, "Views a list of ankets from repository");
 			putValue(Action.MNEMONIC_KEY, new Integer('L'));
 			//putValue(Action.ACCELERATOR_KEY, "ctrl");
@@ -192,13 +192,13 @@ public class App_Service_SARS_Panels implements App_Service, App_Service_Depende
 		private JDialog dlg;
 		public Anket_add_Action() {
 			dlg = new JDialog();
-			dlg.setTitle("Мастер добавления анкеты");
+			dlg.setTitle("РњР°СЃС‚РµСЂ РґРѕР±Р°РІР»РµРЅРёСЏ Р°РЅРєРµС‚С‹");
 			dlg.setSize(new Dimension (400,400));
 			Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 			dlg.setLocation((int)screenSize.getWidth()/2 - (int)dlg.getSize().getWidth()/2,
 					(int)screenSize.getHeight()/2 - (int)dlg.getSize().getHeight()/2);
 			dlg.add(new Anket_uploader_master());
-			putValue(Action.NAME, "Добвить анкету.");
+			putValue(Action.NAME, "Р”РѕР±РІРёС‚СЊ Р°РЅРєРµС‚Сѓ.");
 			putValue(Action.SHORT_DESCRIPTION, "Adds an ankets to repository");
 			putValue(Action.MNEMONIC_KEY, new Integer('A'));
 			//putValue(Action.ACCELERATOR_KEY, "ctrl");

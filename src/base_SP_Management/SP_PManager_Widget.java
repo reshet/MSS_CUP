@@ -52,7 +52,7 @@ public class SP_PManager_Widget extends JDialog{
 		ActionPanel = new JPanel();
 		ActionPanel.setPreferredSize(new Dimension(600,30));
 		ActionPanel.setBackground(new Color(50,60,70));
-		JButton newB = HudWidgetFactory.createHudButton("Создать");
+		JButton newB = HudWidgetFactory.createHudButton("РЎРѕР·РґР°С‚СЊ");
 		newB.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -66,7 +66,7 @@ public class SP_PManager_Widget extends JDialog{
 				SP_PManager_Widget.this.setVisible(false);
 			}
 		});
-		JButton saveB = HudWidgetFactory.createHudButton("Сохранить");
+		JButton saveB = HudWidgetFactory.createHudButton("РЎРѕС…СЂР°РЅРёС‚СЊ");
 		ActionPanel.setLayout(new GridLayout(1,2,3,3));
 		ActionPanel.add(newB);
 		ActionPanel.add(saveB);
@@ -229,19 +229,19 @@ class GR_Item_T extends JPanel
 		line1.setLayout(new GridLayout(1,5));
 		line2.setLayout(new FlowLayout());
 		setLayout(new BorderLayout());
-		use_CB = new JCheckBox("Вкл.");
+		use_CB = new JCheckBox("Р’РєР».");
 		use_CB.setEnabled(true);
-		desc_L = new JLabel("МультиТег");
+		desc_L = new JLabel("РњСѓР»СЊС‚РёРўРµРі");
 		oper_CBX = new JComboBox();
-		oper_CBX.addItem("Группа");
-		oper_CBX.addItem("Тег");
+		oper_CBX.addItem("Р“СЂСѓРїРїР°");
+		oper_CBX.addItem("РўРµРі");
 		analytic_CBX = new JComboBox();
-		analytic_CBX.addItem("Обычный");
-		analytic_CBX.addItem("Авторазбивка");
+		analytic_CBX.addItem("РћР±С‹С‡РЅС‹Р№");
+		analytic_CBX.addItem("РђРІС‚РѕСЂР°Р·Р±РёРІРєР°");
 		oper_CBX.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				if (oper_CBX.getSelectedItem().toString().equals("Тег"))
+				if (oper_CBX.getSelectedItem().toString().equals("РўРµРі"))
 					line2.setVisible(false);
 				else
 					line2.setVisible(true);
@@ -254,7 +254,7 @@ class GR_Item_T extends JPanel
 		}
 		
 		//oper_CBX.setPreferredSize(new Dimension(60,20));
-		bindData = HudWidgetFactory.createHudButton("Связать");
+		bindData = HudWidgetFactory.createHudButton("РЎРІСЏР·Р°С‚СЊ");
 		var_filter_CBX = new JComboBox();
 		var_filter_CBX.setMaximumRowCount(30);
 		line1.add(panel_CBX);
@@ -283,7 +283,7 @@ class GR_Item_T extends JPanel
 				JDialog toBindDlg = new JDialog();
 				toBindDlg.setSize(400,100);
 				cbx = new JComboBox();
-				cbx.addItem("Не связывать.");
+				cbx.addItem("РќРµ СЃРІСЏР·С‹РІР°С‚СЊ.");
 				for(String st:binder.getSet())
 				{
 					cbx.addItem(st);
@@ -302,8 +302,8 @@ class GR_Item_T extends JPanel
 				toBindDlg.setVisible(true);
 			}
 		});
-		name_Group = new JTextField("Имя...");
-		desc_Group = new JTextField("Описание...");
+		name_Group = new JTextField("РРјСЏ...");
+		desc_Group = new JTextField("РћРїРёСЃР°РЅРёРµ...");
 		line1.add(name_Group);line1.add(desc_Group);
 		add(line1,BorderLayout.NORTH);
 		add(line2);
@@ -330,7 +330,7 @@ class GR_Item_T extends JPanel
 		String gr_desc = desc_Group.getText();
 		tag = new SP_Tag(gr_name, gr_desc);
 		SocioPanel pnl = panels.get(FindPanelByName(panel_CBX.getSelectedItem().toString()));
-		if(analytic_CBX.getSelectedItem().toString().equals("Авторазбивка"))
+		if(analytic_CBX.getSelectedItem().toString().equals("РђРІС‚РѕСЂР°Р·Р±РёРІРєР°"))
 		{
 			tag.setToAutoSubdivide(true);
 		}

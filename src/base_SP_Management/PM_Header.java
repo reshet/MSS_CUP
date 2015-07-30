@@ -22,10 +22,10 @@ public class PM_Header extends JPanel
 	private JPanel left, right;
 	public PM_Header() {
 		setPreferredSize(new Dimension(600,70));
-		Name_lbl = new JLabel("Имя проекта: ");
-		Desc_lbl = new JLabel("Описание проекта: ");
-		name_TXF = new JTextField("Имя проекта...");
-		desc_TXA = new JTextArea("Описание проекта здесь: новый проект...");
+		Name_lbl = new JLabel("РРјСЏ РїСЂРѕРµРєС‚Р°: ");
+		Desc_lbl = new JLabel("РћРїРёСЃР°РЅРёРµ РїСЂРѕРµРєС‚Р°: ");
+		name_TXF = new JTextField("РРјСЏ РїСЂРѕРµРєС‚Р°...");
+		desc_TXA = new JTextArea("РћРїРёСЃР°РЅРёРµ РїСЂРѕРµРєС‚Р° Р·РґРµСЃСЊ: РЅРѕРІС‹Р№ РїСЂРѕРµРєС‚...");
 		setLayout(new BorderLayout());
 		left = new JPanel();
 		right = new JPanel();

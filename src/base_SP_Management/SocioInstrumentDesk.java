@@ -92,7 +92,7 @@ public class SocioInstrumentDesk {
 		dlgg = new JDialog();
 		dlgg.setSize(600,600);
 		dlgg.setAlwaysOnTop(true);
-		dlgg.setTitle("Таблица панелистов");
+		dlgg.setTitle("РўР°Р±Р»РёС†Р° РїР°РЅРµР»РёСЃС‚РѕРІ");
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)dlgg.getSize().getHeight()/2);
@@ -119,7 +119,7 @@ public class SocioInstrumentDesk {
 		meta_dlgg = new JDialog();
 		meta_dlgg.setSize(700,600);
 		meta_dlgg.setAlwaysOnTop(true);
-		meta_dlgg.setTitle("Регистрационная анкета");
+		meta_dlgg.setTitle("Р РµРіРёСЃС‚СЂР°С†РёРѕРЅРЅР°СЏ Р°РЅРєРµС‚Р°");
 		meta_dlgg.setLocation((int)screenSize.getWidth()/2 - (int)meta_dlgg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)meta_dlgg.getSize().getHeight()/2);
 		DefaultTableModel metamodel = new DefaultTableModel(metameta_tbl.getModel().getRowCount(),metameta_tbl.getModel().getColumnCount());
@@ -330,14 +330,14 @@ public class SocioInstrumentDesk {
 				
 				servDisp.registerUserBulkEnable();
 				JDialog dlgg = new JDialog();
-				dlgg.setTitle("Подготовка к сохранению на сервере...");
+				dlgg.setTitle("РџРѕРґРіРѕС‚РѕРІРєР° Рє СЃРѕС…СЂР°РЅРµРЅРёСЋ РЅР° СЃРµСЂРІРµСЂРµ...");
 				dlgg.setSize(new Dimension (400,80));
 				dlgg.setLocation(400, 400);
 				JProgressBar p_bar = new JProgressBar(0, tbl.getRowCount());
 				p_bar.setPreferredSize(new Dimension (400,20));
 				dlgg.add(p_bar);
 				dlgg.setVisible(true);
-				dlgg.setTitle("Сохранение на сервере во внутреннем формате MSS...");
+				dlgg.setTitle("РЎРѕС…СЂР°РЅРµРЅРёРµ РЅР° СЃРµСЂРІРµСЂРµ РІРѕ РІРЅСѓС‚СЂРµРЅРЅРµРј С„РѕСЂРјР°С‚Рµ MSS...");
 				p_bar.setValue(0);
 				
 				//!!!!!!!!!!!!!
@@ -497,14 +497,14 @@ public class SocioInstrumentDesk {
 		public UMS_send_Action(int ID_UMS_Accesor)
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Отправить сообщение!");
+			putValue(NAME, "РћС‚РїСЂР°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ!");
 			ID = ID_UMS_Accesor;
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
 			JDialog dlgg = new JDialog();
-			dlgg.setTitle("Сообщение UMS!");
+			dlgg.setTitle("РЎРѕРѕР±С‰РµРЅРёРµ UMS!");
 			dlgg.setSize(new Dimension (400,180));
 			Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 			dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,

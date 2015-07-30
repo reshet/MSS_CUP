@@ -33,19 +33,19 @@ public class SProject_Creator_Mgr extends JPanel{
 		super();
 		setLayout(new BorderLayout());
 		main = new JPanel();
-		name = new JLabel("Название проекта:");
-		manager = new JLabel("Менеджер проекта:");
-		orderer = new JLabel("Заказчик проекта:");
-		dates = new JLabel("Даты проекта:");
-		dates_1 = new JLabel("  получение брифа или задания от заказчика");
-		dates_2 = new JLabel("  дата подготовка предложения");
-		dates_3 = new JLabel("  дата подготовка опросника");
-		dates_4 = new JLabel("  дата начала полевого этапа");
-		dates_5 = new JLabel("  дата окончания полевого этапа");
-		dates_6 = new JLabel("  дата передачи заказчику одномерных распределений");
-		dates_7 = new JLabel("  дата передачи заказчику отчета");
+		name = new JLabel("РќР°Р·РІР°РЅРёРµ РїСЂРѕРµРєС‚Р°:");
+		manager = new JLabel("РњРµРЅРµРґР¶РµСЂ РїСЂРѕРµРєС‚Р°:");
+		orderer = new JLabel("Р—Р°РєР°Р·С‡РёРє РїСЂРѕРµРєС‚Р°:");
+		dates = new JLabel("Р”Р°С‚С‹ РїСЂРѕРµРєС‚Р°:");
+		dates_1 = new JLabel("  РїРѕР»СѓС‡РµРЅРёРµ Р±СЂРёС„Р° РёР»Рё Р·Р°РґР°РЅРёСЏ РѕС‚ Р·Р°РєР°Р·С‡РёРєР°");
+		dates_2 = new JLabel("  РґР°С‚Р° РїРѕРґРіРѕС‚РѕРІРєР° РїСЂРµРґР»РѕР¶РµРЅРёСЏ");
+		dates_3 = new JLabel("  РґР°С‚Р° РїРѕРґРіРѕС‚РѕРІРєР° РѕРїСЂРѕСЃРЅРёРєР°");
+		dates_4 = new JLabel("  РґР°С‚Р° РЅР°С‡Р°Р»Р° РїРѕР»РµРІРѕРіРѕ СЌС‚Р°РїР°");
+		dates_5 = new JLabel("  РґР°С‚Р° РѕРєРѕРЅС‡Р°РЅРёСЏ РїРѕР»РµРІРѕРіРѕ СЌС‚Р°РїР°");
+		dates_6 = new JLabel("  РґР°С‚Р° РїРµСЂРµРґР°С‡Рё Р·Р°РєР°Р·С‡РёРєСѓ РѕРґРЅРѕРјРµСЂРЅС‹С… СЂР°СЃРїСЂРµРґРµР»РµРЅРёР№");
+		dates_7 = new JLabel("  РґР°С‚Р° РїРµСЂРµРґР°С‡Рё Р·Р°РєР°Р·С‡РёРєСѓ РѕС‚С‡РµС‚Р°");
 		
-		methods = new JLabel("Методы сбора информации:");
+		methods = new JLabel("РњРµС‚РѕРґС‹ СЃР±РѕСЂР° РёРЅС„РѕСЂРјР°С†РёРё:");
 		main.setLayout(new GridLayout(12,2));
 		name_ed = new JTextField();
 		manager_ed = new JTextField();
@@ -71,7 +71,7 @@ public class SProject_Creator_Mgr extends JPanel{
 		meth = new JPanel(new GridLayout(3, 1));
 		meth_1 = new JCheckBox("CAPI");
 		meth_2 = new JCheckBox("CATI");
-		meth_3 = new JCheckBox("Бумажная анкета");
+		meth_3 = new JCheckBox("Р‘СѓРјР°Р¶РЅР°СЏ Р°РЅРєРµС‚Р°");
 		meth.add(meth_1);
 		meth.add(meth_2);
 		meth.add(meth_3);
@@ -90,7 +90,7 @@ public class SProject_Creator_Mgr extends JPanel{
 		
 		main.add(methods);main.add(meth);
 		add(main, BorderLayout.CENTER);
-		JButton ok = new JButton("Создать!");
+		JButton ok = new JButton("РЎРѕР·РґР°С‚СЊ!");
 		ok.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {

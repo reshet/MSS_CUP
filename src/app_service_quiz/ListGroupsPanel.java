@@ -59,10 +59,10 @@ public class ListGroupsPanel extends JPanel {
 		getToolbar().setGroupID(idRoot);
 		//toolbar.refresh();
 		getToolbar().setPreferredSize(new Dimension(170,40));
-		JLabel text = new JLabel("Список груп:");
+		JLabel text = new JLabel("РЎРїРёСЃРѕРє РіСЂСѓРї:");
 		Font f = new Font(Font.SANS_SERIF,Font.BOLD,15);
 		text.setFont(f);
-		text.setText("Список груп:");
+		text.setText("РЎРїРёСЃРѕРє РіСЂСѓРї:");
 		text.setBackground(new Color(55,95,95));
 		text.setForeground(new Color(80,80,80));
 		//text.setLineWrap(true);

@@ -63,7 +63,7 @@ public class SimpleFilterPanel extends JPanel{
 		filter_pnl = new JPanel(new BorderLayout());
 		var_panel.setPreferredSize(new Dimension(100,300));
 		var_panel.add(pane);
-		addFilter_btn = new JButton("Добавить фильтр");
+		addFilter_btn = new JButton("Р”РѕР±Р°РІРёС‚СЊ С„РёР»СЊС‚СЂ");
 		var_panel.add(addFilter_btn,BorderLayout.SOUTH);
 		add(var_panel,BorderLayout.WEST);
 		
@@ -88,7 +88,7 @@ public class SimpleFilterPanel extends JPanel{
 					DefaultListModel model = (DefaultListModel) filter.getModel();
 					final Filter_pnl flt = new Filter_pnl((FilterElemData)model.getElementAt(filter.getSelectedIndex()));
 					dlgg.add(flt);
-					JButton done = new JButton("Изменить!");
+					JButton done = new JButton("РР·РјРµРЅРёС‚СЊ!");
 					dlgg.add(done,BorderLayout.SOUTH);
 					done.addActionListener(new ActionListener() {
 						@Override
@@ -106,7 +106,7 @@ public class SimpleFilterPanel extends JPanel{
 			}
 		});
 		filter_pnl.add(new JScrollPane(filter));
-		doFilter_btn = new JButton("Фильтровать");
+		doFilter_btn = new JButton("Р¤РёР»СЊС‚СЂРѕРІР°С‚СЊ");
 		filter_pnl.add(doFilter_btn,BorderLayout.SOUTH);
 		add(filter_pnl);
 		filters = new ArrayList<FilterElemData>(10);
@@ -123,7 +123,7 @@ public class SimpleFilterPanel extends JPanel{
 					FilterElemData fltr = new FilterElemData((String)var_list.getModel().getElementAt(var_list.getSelectedIndex()), "0.0");
 					final Filter_pnl flt = new Filter_pnl(fltr);
 					dlgg.add(flt);
-					JButton done = new JButton("Добавить");
+					JButton done = new JButton("Р”РѕР±Р°РІРёС‚СЊ");
 					dlgg.add(done,BorderLayout.SOUTH);
 					done.addActionListener(new ActionListener() {
 						@Override

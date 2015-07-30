@@ -75,10 +75,10 @@ public class ListUsersPanel extends JPanel {
 		params[0] = idGroup;
 		toolbar.getDispatcher().refresh(params);
 		//toolbar.setPreferredSize(new Dimension(170,40));
-		JLabel text = new JLabel("Список членів панелі:");
+		JLabel text = new JLabel("РЎРїРёСЃРѕРє С‡Р»РµРЅС–РІ РїР°РЅРµР»С–:");
 		Font f = new Font(Font.SANS_SERIF,Font.BOLD,15);
 		text.setFont(f);
-		text.setText("Список членів панелі:");
+		text.setText("РЎРїРёСЃРѕРє С‡Р»РµРЅС–РІ РїР°РЅРµР»С–:");
 		text.setBackground(new Color(55,55,65));
 		//text.setForeground(new Color(220,220,220));
 		//text.setLineWrap(true);

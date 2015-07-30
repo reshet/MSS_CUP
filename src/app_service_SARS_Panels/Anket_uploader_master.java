@@ -58,7 +58,7 @@ public class Anket_uploader_master extends JPanel{
 		//private int ID;
 		public deploy_Action()
 		{
-			putValue(NAME, "В репозитарий!");
+			putValue(NAME, "Р’ СЂРµРїРѕР·РёС‚Р°СЂРёР№!");
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
@@ -82,9 +82,9 @@ public class Anket_uploader_master extends JPanel{
 					if (prep_coded != null)
 					{
 						 prep_coded = new String(Base64.encodeBytes(prep_coded.getBytes()));
-						String anket_name = JOptionPane.showInputDialog("Имя новой анкеты:");
+						String anket_name = JOptionPane.showInputDialog("РРјСЏ РЅРѕРІРѕР№ Р°РЅРєРµС‚С‹:");
 						 String xmlans = MSS_RQ_Request.http_request(reqHandler.createTask(prep_coded,anket_name, 100030,2),ToolMainWidget.URL);
-						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"№"},
+						 MSS_RQ_TableDescriptor NewsTDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–"},
 									new Class[]{Integer.class});
 						    MSS_RQ_XMLtoTableDescriptor NewsT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"ID"});
 						    MSS_RQ_CxListFiller NewsUpdater = new MSS_RQ_CxListFiller(NewsTDesc,NewsT_XML_Desc,NewsServiceElementData.class);		   
@@ -105,8 +105,8 @@ public class Anket_uploader_master extends JPanel{
 		private HudWindow dlg;
 		public load_Action()
 		{
-			putValue(NAME, "Загрузить анкету...");
-			dlg = new HudWindow("Выберите файл анкеты...");
+			putValue(NAME, "Р—Р°РіСЂСѓР·РёС‚СЊ Р°РЅРєРµС‚Сѓ...");
+			dlg = new HudWindow("Р’С‹Р±РµСЂРёС‚Рµ С„Р°Р№Р» Р°РЅРєРµС‚С‹...");
 			dlg.getJDialog().setPreferredSize(new Dimension(300,400));
 			dlg.getJDialog().setBackground(new Color(80,80,80));
 		}
@@ -185,7 +185,7 @@ class AnketFileFilter extends FileFilter
 {
 	@Override
 	public String getDescription() {
-		return "Файлы анкет SARS";
+		return "Р¤Р°Р№Р»С‹ Р°РЅРєРµС‚ SARS";
 	}
 	@Override
 	public boolean accept(File f) {

@@ -24,7 +24,7 @@ public class ListUsersServerDispatcher implements ServerDispatcher {
 	}
 	@Override
 	public void add(Object [] params) {
-		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"¹"}, new Class[]{Integer.class});
+		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"â„–"}, new Class[]{Integer.class});
 		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 		QuizUpdater = new MSS_RQ_CxListFiller(QuizTDesc,QuizT_XML_Desc, ListUsersElementData.class);
 		@SuppressWarnings("unused")
@@ -38,7 +38,7 @@ public class ListUsersServerDispatcher implements ServerDispatcher {
 
 	@Override
 	public void delete(Object [] params) {
-		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"¹"}, new Class[]{Integer.class});
+		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"â„–"}, new Class[]{Integer.class});
 		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 		QuizUpdater = new MSS_RQ_CxListFiller(QuizTDesc,QuizT_XML_Desc, ListUsersElementData.class);
 		@SuppressWarnings("unused")
@@ -68,7 +68,7 @@ public class ListUsersServerDispatcher implements ServerDispatcher {
 	@Override
 	public void edit(Object [] params)
 	{
-		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"¹"}, new Class[]{Integer.class});
+		QuizTDesc = new MSS_RQ_TableDescriptor(new String[]{"â„–"}, new Class[]{Integer.class});
 		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"name","ID"});
 		QuizUpdater = new MSS_RQ_CxListFiller(QuizTDesc,QuizT_XML_Desc, ListUsersElementData.class);
 		//@SuppressWarnings("unused")

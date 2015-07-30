@@ -30,7 +30,7 @@ public class UserSettingsDeployPanelMatcher extends UserSettingsAbstractAsker<Ma
 		super(help);
 	}
 	public UserSettingsDeployPanelMatcher(JTable tbl_1,JTable tbl_2) {
-		super("Ñîïîñòàâüòå êîëîíêè çàãðóæåííîé òàáëè÷êè ïîëüçîâàòåëåé ñ ïîëÿìè ðåãèñòðàöèè.");
+		super("Ð¡Ð¾Ð¿Ð¾ÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ ÐºÐ¾Ð»Ð¾Ð½ÐºÐ¸ Ð·Ð°Ð³Ñ€ÑƒÐ¶ÐµÐ½Ð½Ð¾Ð¹ Ñ‚Ð°Ð±Ð»Ð¸Ñ‡ÐºÐ¸ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹ Ñ Ð¿Ð¾Ð»ÑÐ¼Ð¸ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸Ð¸.");
 		this.tbl_1 = tbl_1;
 		this.tbl_2 = tbl_2;
 		//ArrayList<String> left_names = new ArrayList<String>();
@@ -40,7 +40,7 @@ public class UserSettingsDeployPanelMatcher extends UserSettingsAbstractAsker<Ma
 		{
 			left_names.add(tbl_1.getModel().getColumnName(i));
 		}
-		right_names.add("Íè÷åãî");
+		right_names.add("ÐÐ¸Ñ‡ÐµÐ³Ð¾");
 		right_codes.add("");
 		for(int i = 0; i < tbl_2.getModel().getRowCount();i++)
 		{

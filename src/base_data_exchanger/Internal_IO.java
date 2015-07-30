@@ -69,7 +69,7 @@ public class Internal_IO {
 		chooser.setFileFilter(new FileFilter() {
 			@Override
 			public String getDescription() {
-				return "Файли баз данных CSV";
+				return "Р¤Р°Р№Р»Рё Р±Р°Р· РґР°РЅРЅС‹С… CSV";
 			}
 			
 			@Override
@@ -93,7 +93,7 @@ public class Internal_IO {
 			    return false;
 			}
 		});
-		dlg = new HudWindow("Оберіть файл CSV...");
+		dlg = new HudWindow("РћР±РµСЂС–С‚СЊ С„Р°Р№Р» CSV...");
 		dlg.getJDialog().setPreferredSize(new Dimension(300,400));
 		dlg.getJDialog().setBackground(new Color(80,80,80));
 		ret_val = chooser.showOpenDialog(dlg.getJDialog());
@@ -131,7 +131,7 @@ public class Internal_IO {
 		chooser.setFileFilter(new FileFilter() {
 			@Override
 			public String getDescription() {
-				return "Файли баз данных CSV";
+				return "Р¤Р°Р№Р»Рё Р±Р°Р· РґР°РЅРЅС‹С… CSV";
 			}
 			
 			@Override
@@ -153,7 +153,7 @@ public class Internal_IO {
 			    return false;
 			}
 		});
-		dlg = new HudWindow("Оберіть файл CSV...");
+		dlg = new HudWindow("РћР±РµСЂС–С‚СЊ С„Р°Р№Р» CSV...");
 		dlg.getJDialog().setPreferredSize(new Dimension(300,400));
 		dlg.getJDialog().setBackground(new Color(80,80,80));
 				ret_val = chooser.showOpenDialog(dlg.getJDialog());
@@ -163,7 +163,7 @@ public class Internal_IO {
 						public void run() {
 						
 								JDialog dlgg = new JDialog();
-								dlgg.setTitle("Загрузка данных.Подождите, пожалуйста!");
+								dlgg.setTitle("Р—Р°РіСЂСѓР·РєР° РґР°РЅРЅС‹С….РџРѕРґРѕР¶РґРёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°!");
 								dlgg.setSize(new Dimension (400,80));
 								Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 								dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
@@ -284,10 +284,10 @@ public class Internal_IO {
 												@Override
 												public void run() {
 													//Settings_dlg = new JDialog();
-													//Settings_dlg.setTitle("Настройка загрузки данных.");
+													//Settings_dlg.setTitle("РќР°СЃС‚СЂРѕР№РєР° Р·Р°РіСЂСѓР·РєРё РґР°РЅРЅС‹С….");
 													//Settings_dlg.setSize(new Dimension(400,100));
 													//Settings_dlg.setLocation(400, 400);
-													//JButton btn = new JButton("Подтвердить");
+													//JButton btn = new JButton("РџРѕРґС‚РІРµСЂРґРёС‚СЊ");
 													
 													mgr = desk.getS_panel().getS_project().getProjectManager();
 													mgr_w = new SP_PManager_Widget(mgr);
@@ -411,7 +411,7 @@ public class Internal_IO {
 		chooser.setFileFilter(new FileFilter() {
 			@Override
 			public String getDescription() {
-				return "Файли баз данных CSV,SAV";
+				return "Р¤Р°Р№Р»Рё Р±Р°Р· РґР°РЅРЅС‹С… CSV,SAV";
 			}
 			
 			@Override
@@ -431,7 +431,7 @@ public class Internal_IO {
 			    return false;
 			}
 		});
-		dlg = new HudWindow("Збережіть файл...");
+		dlg = new HudWindow("Р—Р±РµСЂРµР¶С–С‚СЊ С„Р°Р№Р»...");
 		dlg.getJDialog().setPreferredSize(new Dimension(300,400));
 		dlg.getJDialog().setBackground(new Color(80,80,80));
 		ret_val = chooser.showSaveDialog(dlg.getJDialog());
@@ -567,7 +567,7 @@ public class Internal_IO {
 				}
 				/*
 				JDialog dlgg = new JDialog();
-				dlgg.setTitle("Сохранение данных. Подождите, пожалуйста!");
+				dlgg.setTitle("РЎРѕС…СЂР°РЅРµРЅРёРµ РґР°РЅРЅС‹С…. РџРѕРґРѕР¶РґРёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°!");
 				dlgg.setSize(new Dimension (400,80));
 				dlgg.setLocation(400, 400);
 				p_bar = new JProgressBar(0, _Model.getRowCount());
@@ -611,7 +611,7 @@ public class Internal_IO {
         			}
         			*/
         			JDialog dlgg = new JDialog();
-    				dlgg.setTitle("Сохранение данных. Подождите, пожалуйста!");
+    				dlgg.setTitle("РЎРѕС…СЂР°РЅРµРЅРёРµ РґР°РЅРЅС‹С…. РџРѕРґРѕР¶РґРёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°!");
     				dlgg.setSize(new Dimension (400,80));
     				dlgg.setLocation(400, 400);
     				p_bar = new JProgressBar(0, _Model.getRowCount());

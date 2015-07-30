@@ -27,7 +27,7 @@ import base_gui.App_Service_Provider;
 import base_gui.ToolMainWidget;
 
 public class App_Service_SARS_Projects implements App_Service, App_Service_Provider,App_Service_Dependent/*temporary decision*/{
-	private static String service_name = "Проекты";
+	private static String service_name = "РџСЂРѕРµРєС‚С‹";
 	private JPanel WorkPane, TopWorkspace;
 	private JLabel Header_lbl;
 	private MSS_RQ_CxListFiller Updater;
@@ -44,7 +44,7 @@ public class App_Service_SARS_Projects implements App_Service, App_Service_Provi
 	public App_Service_SARS_Projects()
 	{
 		//Connectivity settings
-		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"в„–","Image","Header","Text","Fulltext"},
+		// TDesc = new MSS_RQ_TableDescriptor(new String[]{"РІвЂћвЂ“","Image","Header","Text","Fulltext"},
 	//			 								new Class[]{Integer.class,String.class,String.class,String.class});
 	  //T_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"title","description","fulltext","enclosure"});
 	  // Updater = new MSS_RQ_CxListFiller(TDesc,T_XML_Desc,(Class<? extends ListElementData>) NewsServiceElementData.class);
@@ -52,7 +52,7 @@ public class App_Service_SARS_Projects implements App_Service, App_Service_Provi
 		//-----------
 		Header_lbl = new JLabel(); 
 		Header_lbl.setForeground(new Color(200,200,200));
-		Header_lbl.setText("Рабочая область сервиса проектов.");	
+		Header_lbl.setText("Р Р°Р±РѕС‡Р°СЏ РѕР±Р»Р°СЃС‚СЊ СЃРµСЂРІРёСЃР° РїСЂРѕРµРєС‚РѕРІ.");	
 		WorkPane = new JPanel(new BorderLayout());
 		WorkPane.setBackground(new Color(40,60,80));
 		TopWorkspace = new JPanel(new BorderLayout());
@@ -191,9 +191,9 @@ public class App_Service_SARS_Projects implements App_Service, App_Service_Provi
 					e.printStackTrace();
 				}
 			//SocioProjectWidget PRJ_W = new SocioProjectWidget(s_prj);
-				menu = new JMenu("Проекты");
+				menu = new JMenu("РџСЂРѕРµРєС‚С‹");
 				MainWindow.getJMenuBar().add(menu);
-			JMenuItem newPrj = new JMenuItem("Начать новый проект");
+			JMenuItem newPrj = new JMenuItem("РќР°С‡Р°С‚СЊ РЅРѕРІС‹Р№ РїСЂРѕРµРєС‚");
 			Action act = new AbstractAction() {
 				/**
 				 * 
@@ -204,7 +204,7 @@ public class App_Service_SARS_Projects implements App_Service, App_Service_Provi
 				public void actionPerformed(ActionEvent arg0) {
 					SProject_Creator_Mgr mgr = new SProject_Creator_Mgr();
 					JDialog dlg = new JDialog();
-					dlg.setTitle("Создание нового проекта...");
+					dlg.setTitle("РЎРѕР·РґР°РЅРёРµ РЅРѕРІРѕРіРѕ РїСЂРѕРµРєС‚Р°...");
 					dlg.setSize(new Dimension(600,600));
 					dlg.add(mgr);
 					Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -215,10 +215,10 @@ public class App_Service_SARS_Projects implements App_Service, App_Service_Provi
 				}
 			};
 			
-			act.putValue(Action.NAME,"Начать новый проект" );
+			act.putValue(Action.NAME,"РќР°С‡Р°С‚СЊ РЅРѕРІС‹Р№ РїСЂРѕРµРєС‚" );
 			newPrj.setAction(act);
 					
-			JMenuItem listPrj = new JMenuItem("Текущие проекты");
+			JMenuItem listPrj = new JMenuItem("РўРµРєСѓС‰РёРµ РїСЂРѕРµРєС‚С‹");
 			menu.add(newPrj);
 			menu.add(listPrj);
 			SProjects_TabWidget tabWidget = new SProjects_TabWidget(s_prj);

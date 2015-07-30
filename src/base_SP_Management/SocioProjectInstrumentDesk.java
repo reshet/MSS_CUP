@@ -66,7 +66,7 @@ public class SocioProjectInstrumentDesk {
 		dlgg.setSize(600,600);
 		dlgg.setModal(true);
 		dlgg.setAlwaysOnTop(true);
-		dlgg.setTitle("Собранные данные исследования");
+		dlgg.setTitle("РЎРѕР±СЂР°РЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ");
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)dlgg.getSize().getHeight()/2);
@@ -94,7 +94,7 @@ public class SocioProjectInstrumentDesk {
 		meta_dlgg.setSize(700,600);
 		meta_dlgg.setModal(true);
 		meta_dlgg.setAlwaysOnTop(true);
-		meta_dlgg.setTitle("Метаданные анкеты");
+		meta_dlgg.setTitle("РњРµС‚Р°РґР°РЅРЅС‹Рµ Р°РЅРєРµС‚С‹");
 		meta_dlgg.setLocation((int)screenSize.getWidth()/2 - (int)meta_dlgg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)meta_dlgg.getSize().getHeight()/2);
 		DefaultTableModel tmodel1 = new DefaultTableModel(50, 30);
@@ -119,7 +119,7 @@ public class SocioProjectInstrumentDesk {
 		//reportsPanel.add(new ListReportLinksElement("link", "Link_id", new ListReportLinksElementData("http://link.php")));
 		reports_dlg = new JDialog();
 		reports_dlg.setSize(600,600);
-		reports_dlg.setTitle("Отчеты");
+		reports_dlg.setTitle("РћС‚С‡РµС‚С‹");
 		reports_dlg.setLocation((int)screenSize.getWidth()/2 - (int)reports_dlg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)reports_dlg.getSize().getHeight()/2);
 		
@@ -129,7 +129,7 @@ public class SocioProjectInstrumentDesk {
 		flash_burner_pnl = new FlashBurnerPanel(this.s_prj);
 		//reportsPanel.add(new ListReportLinksElement("link", "Link_id", new ListReportLinksElementData("http://link.php")));
 		flash_burner_dlg = new JDialog();
-		flash_burner_dlg.setTitle("Прошивка флеш-карт интервьюверов для проекта");
+		flash_burner_dlg.setTitle("РџСЂРѕС€РёРІРєР° С„Р»РµС€-РєР°СЂС‚ РёРЅС‚РµСЂРІСЊСЋРІРµСЂРѕРІ РґР»СЏ РїСЂРѕРµРєС‚Р°");
 		flash_burner_dlg.setSize(600,600);
 		flash_burner_dlg.setLocation((int)screenSize.getWidth()/2 - (int)flash_burner_dlg.getSize().getWidth()/2,
 				(int)screenSize.getHeight()/2 - (int)flash_burner_dlg.getSize().getHeight()/2);
@@ -289,14 +289,14 @@ public class SocioProjectInstrumentDesk {
 			public void run() {
 				int anketID = s_prj.getWidget().getSelectedAnketID();
 				JDialog dlgg = new JDialog();
-				dlgg.setTitle("Подготовка к сохранению на сервере...");
+				dlgg.setTitle("РџРѕРґРіРѕС‚РѕРІРєР° Рє СЃРѕС…СЂР°РЅРµРЅРёСЋ РЅР° СЃРµСЂРІРµСЂРµ...");
 				dlgg.setSize(new Dimension (400,80));
 				dlgg.setLocation(400, 400);
 				JProgressBar p_bar = new JProgressBar(0, tbl.getRowCount());
 				p_bar.setPreferredSize(new Dimension (400,20));
 				dlgg.add(p_bar);
 				dlgg.setVisible(true);
-				dlgg.setTitle("Сохранение на сервере во внутреннем формате MSS...");
+				dlgg.setTitle("РЎРѕС…СЂР°РЅРµРЅРёРµ РЅР° СЃРµСЂРІРµСЂРµ РІРѕ РІРЅСѓС‚СЂРµРЅРЅРµРј С„РѕСЂРјР°С‚Рµ MSS...");
 				p_bar.setValue(0);
 				int counter=0;
 				for(LocalInterviewElement elem:s_prj.getLocal_interviews_stack())
@@ -416,7 +416,7 @@ public class SocioProjectInstrumentDesk {
 				final MSS_RQ_Admin reqHandler = new MSS_RQ_Admin("Tool", ToolMainWidget.login, ToolMainWidget.pswd);
 				reqHandler.enableBulk();
 				Map<Integer,ArrayList<Integer>> gr_users= new HashMap<Integer,ArrayList<Integer>>();
-				WaitDialog dlg = new WaitDialog("Применение заданных настроек...");
+				WaitDialog dlg = new WaitDialog("РџСЂРёРјРµРЅРµРЅРёРµ Р·Р°РґР°РЅРЅС‹С… РЅР°СЃС‚СЂРѕРµРє...");
 				for(int j = 1; j < model.getColumnCount();j++)
 				{
 					int groupID = Integer.parseInt(model.getColumnName(j));
@@ -544,14 +544,14 @@ public class SocioProjectInstrumentDesk {
 		public UMS_send_Action(int ID_UMS_Accesor)
 		{
 			reqHandler = new MSS_RQ_Admin("Tool", "10000", "mysecret");
-			putValue(NAME, "Отправить сообщение!");
+			putValue(NAME, "РћС‚РїСЂР°РІРёС‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ!");
 			ID = ID_UMS_Accesor;
 		}
 		@Override
 		public void actionPerformed(ActionEvent arg0)
 		{
 			JDialog dlgg = new JDialog();
-			dlgg.setTitle("Сообщение UMS!");
+			dlgg.setTitle("РЎРѕРѕР±С‰РµРЅРёРµ UMS!");
 			dlgg.setSize(new Dimension (400,180));
 			Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 			dlgg.setLocation((int)screenSize.getWidth()/2 - (int)dlgg.getSize().getWidth()/2,

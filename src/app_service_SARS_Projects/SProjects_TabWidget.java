@@ -24,7 +24,7 @@ public class SProjects_TabWidget extends JPanel{
 		{
 			SocioProject_Widget wdg = new SocioProject_Widget();
 			wdg.adjustSocioProject(sp);
-			tabber.addTab("Проект: "+sp.getName(), wdg);
+			tabber.addTab("РџСЂРѕРµРєС‚: "+sp.getName(), wdg);
 		}
 		setLayout(new BorderLayout());
 		this.add(tabber);

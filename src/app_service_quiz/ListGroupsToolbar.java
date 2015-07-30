@@ -38,11 +38,11 @@ public class ListGroupsToolbar extends JPanel {
 		this.setBackground(new Color(30,30,30));
 		addBtn = HudWidgetFactory.createHudButton("+");
 		delBtn = HudWidgetFactory.createHudButton("-");
-		refreshBtn = HudWidgetFactory.createHudButton("Обновить");
+		refreshBtn = HudWidgetFactory.createHudButton("РћР±РЅРѕРІРёС‚СЊ");
 		addBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				//String name = "Новая панель в проекте";
+				//String name = "РќРѕРІР°СЏ РїР°РЅРµР»СЊ РІ РїСЂРѕРµРєС‚Рµ";
 			    //String[] param = new String[2];
 			    //param[0] = name;
 			    //param[1] = String.valueOf(groupID);
@@ -70,7 +70,7 @@ public class ListGroupsToolbar extends JPanel {
 				refresh();
 			}
 		});
-		//editor = HudWidgetFactory.createHudTextField("Новf елемент...");
+		//editor = HudWidgetFactory.createHudTextField("РќРѕРІf РµР»РµРјРµРЅС‚...");
 		/*
 		list.addMouseListener(new MouseAdapter() {
 			@Override

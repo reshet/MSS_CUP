@@ -175,12 +175,12 @@ class RequestFilterItem extends JPanel
 		this.s_Panel = span;
 		setPreferredSize(new Dimension(500,20));
 		setLayout(new GridLayout(1,5));
-		use_CB = new JCheckBox("Фильтр");
+		use_CB = new JCheckBox("Р¤РёР»СЊС‚СЂ");
 		use_CB.setEnabled(true);
-		desc_L = new JLabel("Фильтр");
+		desc_L = new JLabel("Р¤РёР»СЊС‚СЂ");
 		oper_CBX = new JComboBox();
-		oper_CBX.addItem("Содержит");
-		oper_CBX.addItem("Исключая");
+		oper_CBX.addItem("РЎРѕРґРµСЂР¶РёС‚");
+		oper_CBX.addItem("РСЃРєР»СЋС‡Р°СЏ");
 		//oper_CBX.setPreferredSize(new Dimension(60,20));
 		logic_CBX = new JComboBox();
 		logic_CBX.addItem("=");

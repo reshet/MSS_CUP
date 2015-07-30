@@ -83,7 +83,7 @@ public class TasksTablePanel extends JPanel{
 				{"2342342","32534534","242353rwerfsdf",new Boolean(false),"dgdg,drgert34"}
 				};
 		//ID="185" Description="Task description" Visability="0" Aviability="0" Accepted="0" Subscribed="0";
-		columnNames = new String[]{"№", "ID", "Опис","Видимість","Доступність","Пройдено","Підписано"};
+		columnNames = new String[]{"в„–", "ID", "РћРїРёСЃ","Р’РёРґРёРјС–СЃС‚СЊ","Р”РѕСЃС‚СѓРїРЅС–СЃС‚СЊ","РџСЂРѕР№РґРµРЅРѕ","РџС–РґРїРёСЃР°РЅРѕ"};
 		model = new DefaultTableModel(data, columnNames);
 		//MacServiceTable = MacWidgetFactory.createITunesTable(model);
 		//JScrollPane scrollPane = new JScrollPane(MacServiceTable);
@@ -121,15 +121,15 @@ public class TasksTablePanel extends JPanel{
 		});
 		update();
 		toolbar = new JPanel();
-		final JCheckBox inspect = new JCheckBox("Отслеживать");
+		final JCheckBox inspect = new JCheckBox("РћС‚СЃР»РµР¶РёРІР°С‚СЊ");
 		inspect.setOpaque(false);
-		JLabel period_l = new JLabel(" период обновления: ");
+		JLabel period_l = new JLabel(" РїРµСЂРёРѕРґ РѕР±РЅРѕРІР»РµРЅРёСЏ: ");
 		Color clr = new Color(200,255,200);
 		inspect.setForeground(clr);
 		period_l.setForeground(clr);
 		final JTextField period = new JTextField("10");
 		period.setSize(40,30);
-		JButton upd = HudWidgetFactory.createHudButton("Оновити!");
+		JButton upd = HudWidgetFactory.createHudButton("РћРЅРѕРІРёС‚Рё!");
 		upd.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -213,7 +213,7 @@ public class TasksTablePanel extends JPanel{
 				// TODO Auto-generated method stub
 				QuizTDesc = new MSS_RQ_TableDescriptor(columnNames, 
 						new Class[]{Integer.class, Integer.class, String.class,Boolean.class,Boolean.class,Integer.class,Integer.class});
-				QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"№","ID","Description","Visability","Aviability","Accepted","Subscribed"});
+				QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"в„–","ID","Description","Visability","Aviability","Accepted","Subscribed"});
 				QuizUpdater = new MSS_RQ_TableFiller(QuizTDesc,QuizT_XML_Desc);
 				reqHandlerAdmin = new MSS_RQ_Admin("Tool", ToolMainWidget.login, ToolMainWidget.pswd);
 				
@@ -242,7 +242,7 @@ public class TasksTablePanel extends JPanel{
 	{
 		QuizTDesc = new MSS_RQ_TableDescriptor(columnNames, 
 				new Class[]{Integer.class, Integer.class, String.class,Boolean.class,Boolean.class,Integer.class,Integer.class});
-		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"№","ID","Description","Visability","Aviability","Accepted","Subscribed"});
+		QuizT_XML_Desc = new MSS_RQ_XMLtoTableDescriptor(new String[]{"в„–","ID","Description","Visability","Aviability","Accepted","Subscribed"});
 		QuizUpdater = new MSS_RQ_TableFiller(QuizTDesc,QuizT_XML_Desc);
 		String xml_arr_ans = MSS_RQ_Request.http_request(reqHandlerAdmin.listTasksOwnW(idGroup),ToolMainWidget.URL);
 		QuizUpdater.updateData(xml_arr_ans);
@@ -255,13 +255,13 @@ public class TasksTablePanel extends JPanel{
 			if (!interviews_collected.containsKey(int_ID))
 			{
 				interviews_collected.put(int_ID, int_collected);
-				JOptionPane.showMessageDialog(null, int_ID+": "+int_collected+" новых интервью!");
+				JOptionPane.showMessageDialog(null, int_ID+": "+int_collected+" РЅРѕРІС‹С… РёРЅС‚РµСЂРІСЊСЋ!");
 			} else
 			{
 				int new_int_count = int_collected - interviews_collected.get(int_ID);
 				if (new_int_count > 0) 	
 				{
-					JOptionPane.showMessageDialog(null, int_ID+": "+new_int_count+" новых интервью!");
+					JOptionPane.showMessageDialog(null, int_ID+": "+new_int_count+" РЅРѕРІС‹С… РёРЅС‚РµСЂРІСЊСЋ!");
 					interviews_collected.put(int_ID, int_collected);
 				}
 			}
